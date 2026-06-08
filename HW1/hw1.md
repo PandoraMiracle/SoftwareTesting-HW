@@ -6,7 +6,7 @@
 | **Student ID**        | `23127271`                                             |
 | **Full Name**         | `Võ Ngọc Bích Trâm`                                    |
 | **GitHub Repository** | `https://github.com/PandoraMiracle/SoftwareTesting-HW` |
-| **Submission Date**   | `[dd/mm/yyyy]`                                         |
+| **Submission Date**   | `08/06/2026`                                           |
 
 
 ---
@@ -34,10 +34,10 @@
 ### Summary
 
 
-| Metric                        | Count   |
-| ----------------------------- | ------- |
-| Total job postings            | 10      |
-| AI/LLM/automation-AI required | `[≥ 3]` |
+| Metric                        | Count |
+| ----------------------------- | ----- |
+| Total job postings            | 10    |
+| AI/LLM/automation-AI required | 5     |
 
 
 ---
@@ -51,9 +51,11 @@
 | **Company**     | [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=4417931013&f_TPR=r2592000&keywords=QA%2FQC&origin=JOB_SEARCH_PAGE_JOB_FILTER) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4402151198/](https://www.linkedin.com/jobs/view/4402151198/)                                            |
 | **Posted Date** | 31/05/2026                                                                                                                                  |
-| **Screenshot**  | Job01                                                                                                                                       |
+| **Screenshot**  | See below                                                                                                                                   |
 | **Salary**      | Not Disclosed                                                                                                                               |
 
+
+![Job01](./images/Requirement1/Job01.png)
 
 **Job Description (summary):**
 
@@ -74,7 +76,7 @@ You will be responsible for the full defect lifecycle using Jira, work closely w
 
 **AI Impact Analysis (1–2 sentences):**
 
-`[How AI/LLM/automation affects this role — what can be replaced, assisted, or not replaced?]`
+AI-assisted test-generation and Katalon script drafting can speed up regression suites and API checks, but this role still requires hands-on manual testing, defect triage in Jira, and validation of cross-functional Agile deliverables that AI cannot observe in a live environment. Test automation maintenance, exploratory judgment, and stakeholder communication remain human-driven; AI augments efficiency rather than replacing the QA Engineer.
 
 ---
 
@@ -88,9 +90,11 @@ You will be responsible for the full defect lifecycle using Jira, work closely w
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=4417931013&f_TPR=r2592000&keywords=QA%2FQC&origin=JOB_SEARCH_PAGE_JOB_FILTER) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4417931013/](https://www.linkedin.com/jobs/view/4417931013/)                                            |
 | **Posted Date** | 29/05/2026                                                                                                                                  |
-| **Screenshot**  | Job02                                                                                                                                       |
+| **Screenshot**  | See below                                                                                                                                   |
 | **Salary**      | Not Disclosed                                                                                                                               |
 
+
+![Job02](./images/Requirement1/Job02.png)
 
 **Job Description (summary):**
 You will work as part of a QA team to plan, execute, and improve software testing activities while collaborating closely with developers and clients in an Agile environment.
@@ -115,9 +119,11 @@ AI enhances tester productivity by accelerating research, test design, and defec
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?currentJobId=4422586771&keywords=QA%2FQC)         |
 | **Link**        | ([https://www.linkedin.com/jobs/view/4422586771/](https://www.linkedin.com/jobs/view/4422586771/)) |
 | **Posted Date** | 02/06/2026                                                                                         |
-| **Screenshot**  | Job03                                                                                              |
+| **Screenshot**  | See below                                                                                          |
 | **Salary**      | Not Disclosed (competitive salary; 13th-month pay + performance bonus)                             |
 
+
+![Job03](./images/Requirement1/Job03.png)
 
 **Job Description (summary):**
 
@@ -150,9 +156,11 @@ AI can accelerate requirement summarization, test-case drafting, and defect-repo
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=Fresher%20Automation%20Tester%20SmartOSC&location=Hanoi%2C%20Vietnam) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4424564249](https://www.linkedin.com/jobs/view/4424564249)                                  |
 | **Posted Date** | 05/06/2026                                                                                                                      |
-| **Screenshot**  | Job04                                                                                                                           |
+| **Screenshot**  | See below                                                                                                                       |
 | **Salary**      | Up to 6,000,000 VND/month (training allowance); full benefits after conversion                                                  |
 
+
+![Job04](./images/Requirement1/Job04.png)
 
 **Job Description (summary):**
 
@@ -182,9 +190,11 @@ AI-assisted coding and test-generation tools can speed up script drafting and te
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=Manual%20Tester%20Amaris%20Consulting&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4420402245](https://www.linkedin.com/jobs/view/4420402245)                                   |
 | **Posted Date** | 05/06/2026                                                                                                                       |
-| **Screenshot**  | Job05                                                                                                                            |
+| **Screenshot**  | See below                                                                                                                        |
 | **Salary**      | Not Disclosed (competitive salary; 13th-month pay; premium healthcare from probation)                                            |
 
+
+![Job05](./images/Requirement1/Job05.png)
 
 **Job Description (summary):**
 
@@ -210,13 +220,15 @@ AI can assist with drafting acceptance criteria, generating test scenarios from 
 | Field           | Content                                                                                                                     |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **Job Title**   | **QA Engineer Intern**                                                                                                      |
-| **Company**     | **[CoverGo                                                                                                                  |
+| **Company**     | **[CoverGo                                                                                                                  | Insurtech](https://www.linkedin.com/company/covergo/)** |
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer%20Intern%20CoverGo&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4421637916/](https://www.linkedin.com/jobs/view/4421637916/)                            |
 | **Posted Date** | 02/06/2026                                                                                                                  |
-| **Screenshot**  | Job06                                                                                                                       |
+| **Screenshot**  | See below                                                                                                                   |
 | **Salary**      | Not Disclosed (internship; hybrid setup; professional development benefits)                                                 |
 
+
+![Job06](./images/Requirement1/Job06.png)
 
 **Job Description (summary):**
 
@@ -249,9 +261,11 @@ AI-assisted test generation and code utilities can accelerate scenario drafting 
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=QA%20Automation%20Tester%20MiTek&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4405470981/](https://www.linkedin.com/jobs/view/4405470981/)                            |
 | **Posted Date** | 30/05/2026 (reposted)                                                                                                       |
-| **Screenshot**  | Job07                                                                                                                       |
+| **Screenshot**  | See below                                                                                                                   |
 | **Salary**      | Not Disclosed (attractive salary; 13th-month + year-end performance bonus)                                                  |
 
+
+![Job07](./images/Requirement1/Job07.png)
 
 **Job Description (summary):**
 
@@ -281,9 +295,11 @@ AI code assistants and test-generation tools can accelerate script drafting for 
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=QA%20QC%20Intern%20Flowmingo&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4420929154/](https://www.linkedin.com/jobs/view/4420929154/)                        |
 | **Posted Date** | 30/05/2026                                                                                                              |
-| **Screenshot**  | Job08                                                                                                                   |
+| **Screenshot**  | See below                                                                                                               |
 | **Salary**      | Competitive monthly remuneration (experience-based); listed as Volunteer on LinkedIn                                    |
 
+
+![Job08](./images/Requirement1/Job08.png)
 
 **Job Description (summary):**
 
@@ -313,9 +329,11 @@ This role directly validates **AI Speech-to-Text** and AI interview flows across
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=Software%20Tester%20UNIT%20Technology&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4422977983/](https://www.linkedin.com/jobs/view/4422977983/)                                 |
 | **Posted Date** | 04/06/2026                                                                                                                       |
-| **Screenshot**  | Job09                                                                                                                            |
+| **Screenshot**  | See below                                                                                                                        |
 | **Salary**      | Not Disclosed                                                                                                                    |
 
+
+![Job09](./images/Requirement1/Job09.png)
 
 **Job Description (summary):**
 
@@ -346,9 +364,11 @@ AI can accelerate English requirement summarization, test-case drafting, and doc
 | **Platform**    | [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=QC%20Tester%20Vexere&location=Ho%20Chi%20Minh%20City) |
 | **Link**        | [https://www.linkedin.com/jobs/view/4421374293/](https://www.linkedin.com/jobs/view/4421374293/)                |
 | **Posted Date** | 01/06/2026                                                                                                      |
-| **Screenshot**  | Job10                                                                                                           |
+| **Screenshot**  | See below                                                                                                       |
 | **Salary**      | Competitive salary + KPI-based quarterly bonuses                                                                |
 
+
+![Job10](./images/Requirement1/Job10.png)
 
 **Job Description (summary):**
 
@@ -1137,17 +1157,19 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 ### Device Information
 
 
-| Field                         | Content                                                                                                |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Device Type**               | Portable Handheld & Desk Fan (Quạt cầm tay & bàn)                                                      |
-| **Brand**                     | GOOJODOQ                                                                                               |
-| **Model**                     | GFS006                                                                                                 |
-| **Year**                      | `2025`                                                                                                 |
-| **Serial Number**             | `Can't check`                                                                                          |
-| **Device Photo + Student ID** | ProductImg                                                                                             |
-| **GitHub Issues Link**        | `[URL to Issues page — username visible]`                                                              |
-| **Control Interface**         | **Slide** power switch ON/OFF; **Press** speed +/− buttons (levels 1–100); **Toggle** cold mode ON/OFF |
+| Field                         | Content                                                                                                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Device Type**               | Portable Handheld & Desk Fan (Quạt cầm tay & bàn)                                                                          |
+| **Brand**                     | GOOJODOQ                                                                                                                   |
+| **Model**                     | GFS006                                                                                                                     |
+| **Year**                      | `2025`                                                                                                                     |
+| **Serial Number**             | `Can't check`                                                                                                              |
+| **Device Photo + Student ID** | See below                                                                                                                  |
+| **GitHub Issues Link**        | [https://github.com/PandoraMiracle/SoftwareTesting-HW/issues](https://github.com/PandoraMiracle/SoftwareTesting-HW/issues) |
+| **Control Interface**         | **Slide** power switch ON/OFF; **Press** speed +/− buttons (levels 1–100); **Toggle** cold mode ON/OFF                     |
 
+
+![Device Photo + Student ID](./images/Requirement3/ProductImg.jpg)
 
 ---
 
@@ -1157,8 +1179,8 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 | Metric                           | Target | Actual                  |
 | -------------------------------- | ------ | ----------------------- |
 | Total test cases designed        | 15     | 15                      |
-| Test cases executed (with video) | ≥ 5    | `[ ]`                   |
-| Defects found during execution   | ≥ 5    | `[ ]`                   |
+| Test cases executed (with video) | ≥ 5    | 5                       |
+| Defects found during execution   | ≥ 5    | 5                       |
 | Edge cases AI could not find     | ≥ 3    | 3 (TC-11, TC-12, TC-13) |
 
 
@@ -1167,23 +1189,23 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 ### Test Cases
 
 
-| TC ID | Objective                                                                                | Input / Precondition                                                                                                              | Steps                                                                                                                                                                                                                                                                                                                                                                           | Expected Result                                                                                                                                                                                                                                                           | Actual Result                                                                                                                                         | Status(Pass/Fail) | Executed? | Video Link               |
-| ----- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ------------------------ |
-| TC-01 | Verify device powers on and produces airflow at default speed                            | Fan fully charged; power slide switch at OFF; Type-C cable disconnected; cold mode Toggle OFF                                     | 1. **Slide** the power switch from OFF to ON. 2. Observe the LED display. 3. Hold hand 10 cm from the air outlet for 5 s.                                                                                                                                                                                                                                                       | Device powers on within 3 s; LED shows a speed level (default or last-used); steady airflow is felt at the outlet; no abnormal noise or vibration.                                                                                                                        | `As expected`                                                                                                                                         | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
-| TC-02 | Verify Type-C charging from empty/low battery                                            | Battery at ≤10% or depleted; standard 5 V/2 A Type-C adapter and cable; power slide switch at OFF                                 | 1. Connect the Type-C cable to the fan and adapter. 2. Note the start time and any charging indicator. 3. Leave charging until the indicator shows full (or ~2.5 h). 4. Disconnect cable and **Slide** power switch to ON.                                                                                                                                                      | Charging indicator activates within 10 s; full charge completes in approximately 2.5 h (±15 min); after disconnecting, device powers on and runs normally.                                                                                                                | `As expected`                                                                                                                                         | `Pass`            | No        | —                        |
-| TC-03 | Verify maximum wind speed (level 100) delivers strong airflow                            | Fully charged; handheld or desk mode on a stable surface; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON. 2. **Press** speed + button repeatedly until LED shows 100. 3. Confirm LED shows 100. 4. Hold tissue paper or hand 20 cm from outlet for 10 s.                                                                                                                                                                                                 | LED displays 100; airflow is clearly stronger than at level 50; motor runs smoothly without stall, burning smell, or excessive vibration; perceived airflow consistent with 10 m/s / 13,000 RPM spec.                                                                     | `As expected`                                                                                                                                         | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
-| TC-04 | Verify 100 speed levels adjust smoothly                                                  | Fully charged; power slide switch at ON; speed at level 1                                                                         | 1. **Press** speed + button from level 1 to 100, pausing 1 s every 1 levels. 2. Record LED value at each pause. 3. **Press** speed − button from 100 back to 1 using the same method.                                                                                                                                                                                           | Each press changes speed monotonically; LED increments/decrements; motor transitions without stutter, clicking, or sudden stops.                                                                                                                                          | `As expected`                                                                                                                                         | `Passed`          | No        | —                        |
-| TC-05 | Verify LED display accuracy at representative speed levels                               | Fully charged; power slide switch at ON                                                                                           | 1. **Press** speed − button until LED shows 1; photograph or note LED reading. 2. **Press** speed + button until LED shows 50; note LED. 3. **Press** speed + button until LED shows 100; note LED. 4. **Slide** power switch to OFF, then **Slide** back to ON; check whether last speed level is retained.                                                                    | LED shows 1, 40, and 100 respectively with no digit flicker; display remains readable for 30 s at each level; after power cycle, behavior matches user-manual spec (retain or reset to default).                                                                          | Last speed level is not retained.                                                                                                                     | `Failed`          | Yes       | `[YouTube Unlisted URL]` |
-| TC-06 | Verify semiconductor cooling plate lowers surface temperature                            | Fully charged; room temp 25–30 °C; power slide switch at ON; cold mode Toggle OFF                                                 | 1. **Slide** power switch to ON. 2. **Toggle** cold mode ON. 3. **Press** speed + button until LED shows 40–50; run for 3 min. 4. Lightly touch the cooling plate for 2 s. 5. Compare plate temp to the plastic housing.                                                                                                                                                        | Cooling plate feels noticeably cooler than the surrounding body within 3 min; no sharp heat on the housing; fan continues running; no condensation on the plate indoors.                                                                                                  | `As expected`                                                                                                                                         | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
-| TC-07 | Verify continuous runtime at medium speed meets 2.5–8 h spec                             | Fully charged (100%); speed at level 50; stopwatch ready; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON; **Press** speed +/− buttons until LED shows 50; start stopwatch. 2. Run continuously without pressing speed buttons or toggling cold mode. 3. Record time until auto shut-off or noticeable speed drop. 4. Note final battery state.                                                                                                           | Device runs for at least 2.5 h before shutdown or low-battery slowdown; runtime at level 50 falls within the advertised 2.5–8 h range; shut-off is graceful (no abrupt motor jam).                                                                                        | `As expected`                                                                                                                                         | `Pass`            | No        | —                        |
-| TC-08 | Verify noise level at low speed is within quiet-use expectation (<25 dB)                 | Fully charged; quiet room (background <30 dB); power slide switch at ON; cold mode Toggle OFF                                     | 1. Place fan on desk; **Slide** power switch to ON. 2. **Press** speed − button until LED shows 5. 3. Measure sound at 1 m using a decibel-meter app (or compare to a known-quiet fan). 4. Run for 2 min and listen for rattling.                                                                                                                                               | Measured or perceived noise at level 1 is ≤25 dB (or clearly suitable for office use); no rattling, grinding, or high-pitched whine; airflow still perceptible.                                                                                                           | Decibel-meter app measured ~34 dB at 1 m at speed level 1, exceeding the advertised ≤25 dB spec; no rattling observed; airflow was still perceptible. | `Failed`          | No        | —                        |
-| TC-09 | Verify handheld ergonomics and thermal comfort during extended use                       | Fully charged; speed at level 60; 15-min test session; cold mode Toggle OFF                                                       | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 60. 2. Hold fan in one hand in handheld mode for 15 min. 3. Note grip comfort, weight fatigue, and housing temperature.                                                                                                                                                                               | Weight (~320 g) remains comfortable for 15 min; housing does not become uncomfortably hot; grip surface is not slippery; airflow direction is easy to aim.                                                                                                                | Weight remained comfortable for 15 min; housing stayed warm but not uncomfortably hot; grip surface was secure; airflow direction was easy to aim.    | `Passed`          | No        | —                        |
-| TC-10 | Verify desk/tabletop mode stability at maximum speed on flat surface                     | Fully charged; fan in desk-stand configuration; flat, hard tabletop; cold mode Toggle OFF                                         | 1. Place fan in desk mode on a level table. 2. **Slide** power switch to ON. 3. **Press** speed + button until LED shows 100. 4. Observe for 3 min for movement or tip-over. 5. Lightly tap the table edge.                                                                                                                                                                     | Fan remains upright for 5 min with no walking/sliding; does not tip when table is lightly tapped; vibration is within acceptable limits.                                                                                                                                  | The fan remained upright during normal operation. However, after the tabletop was lightly tapped, the fan lost stability and tipped over.             | `Failed`          | Yes       | `[YouTube Unlisted URL]` |
-| TC-11 | **Edge case:** Verify charge-while-use behavior (simultaneous charging and operation)    | Battery at ~30–50%; standard 5 V/2 A Type-C adapter and cable; cold mode Toggle OFF; indoor room temp 25–30 °C                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 50. 2. Connect Type-C charger while fan is running. 3. Run for 15 min; every 5 min record housing temperature (touch test), LED reading, and motor sound. 4. Note whether battery level appears to increase, stay the same, or decrease during use-while-charging.                                    | Housing temperature rises only within a safe, comfortable range (no burning smell or shutdown); motor speed and sound remain stable at level 50; device does not auto shut off; actual charging behavior is documented (product spec does not define use-while-charging). | `As expexted`                                                                                                                                         | `Passed`          | No        | —                        |
-| TC-12 | **Edge case:** Verify battery status indicator during charging and at 100% full charge   | Battery at ≤20% or depleted; power slide switch at OFF; Type-C adapter connected; product spec does not define indicator behavior | 1. Connect Type-C cable with device OFF; note LED/battery indicator immediately. 2. Observe indicator every 30 min during charging (~2.5 h total). 3. Record indicator behavior at mid-charge and when charge completes. 4. After reaching full charge, disconnect cable and **Slide** power switch to ON; confirm normal operation.                                            | Charging state is visible via LED pattern, icon, or percentage (if present); indicator changes or stabilizes to signal full charge at 100%; if no battery % exists, LED behavior during/after full charge is recorded; device operates normally after full charge.        | Charging status is displayed during charging. However, no indication is provided when the battery reaches full charge.                                | `Failed`          | No        | —                        |
-| TC-13 | **Edge case:** Verify physical shock resistance after light drop (handheld use scenario) | Fully charged; power slide switch at OFF; hard floor surface (tile/concrete); open drop area; cold mode Toggle OFF                | 1. Inspect housing, LED, grille, and slide/toggle controls before test. 2. Hold fan at 0.5 m above hard floor (handheld carry height). 3. Release fan once so it falls freely onto the hard surface. 4. Inspect for cracks, loose parts, or internal rattling. 5. **Slide** power switch to ON; **Press** speed +/− buttons; **Toggle** cold mode ON/OFF; verify motor and LED. | No structural crack or sharp exposed parts; no loose internal components; after drop, device **Slides** ON and runs normally at multiple speed levels; LED and cold mode **Toggle** work; cosmetic scuffs are acceptable but functional damage is a defect.               | Minor cosmetic scuff on housing corner after drop; no cracks or loose parts; power, speed buttons, cold mode, and motor all functioned normally.      | `Passed`          | No        | —                        |
-| TC-14 | Verify low-battery warning or graceful shutdown before sudden stop                       | Battery at ~15% (partial charge cycle or prior drain); speed at level 70; cold mode Toggle OFF                                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 70. 2. Run until device slows, warns, or shuts off. 3. Record behavior in the final 5 min.                                                                                                                                                                                                            | User receives visible low-battery indication (LED blink, speed drop, or icon) before total shutdown; device does not stop abruptly without warning; after shutdown, **Slide** power switch to ON cannot restart device until charged.                                     | Device shut off suddenly at ~8% with no prior LED blink, speed drop, or other low-battery warning; could not restart until recharged.                   | `Failed`          | No        | —                        |
-| TC-15 | Verify safe behavior when charging is interrupted mid-cycle                              | Battery at ~40%; power slide switch at OFF; Type-C charger connected                                                              | 1. Begin charging and wait until ~60% (or 30 min). 2. Unplug cable abruptly. 3. **Slide** power switch to ON; **Press** speed + button until LED shows 50; run for 5 min. 4. **Slide** power switch to OFF; reconnect charger.                                                                                                                                                  | No damage, swelling, or excessive heat after unplug; device powers on and runs normally; battery level display is plausible (not stuck at 0% or 100%); charging resumes normally when cable is reconnected.                                                               | No swelling or excess heat after abrupt unplug; device ran normally at level 50; charging indicator resumed when cable was reconnected.               | `Passed`          | No        | —                        |
+| TC ID | Objective                                                                                | Input / Precondition                                                                                                              | Steps                                                                                                                                                                                                                                                                                                                                                                           | Expected Result                                                                                                                                                                                                                                                           | Actual Result                                                                                                                                         | Status(Pass/Fail) | Executed? | Video Link                                                                                                   |
+| ----- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------ |
+| TC-01 | Verify device powers on and produces airflow at default speed                            | Fan fully charged; power slide switch at OFF; Type-C cable disconnected; cold mode Toggle OFF                                     | 1. **Slide** the power switch from OFF to ON. 2. Observe the LED display. 3. Hold hand 10 cm from the air outlet for 5 s.                                                                                                                                                                                                                                                       | Device powers on within 3 s; LED shows a speed level (default or last-used); steady airflow is felt at the outlet; no abnormal noise or vibration.                                                                                                                        | `As expected`                                                                                                                                         | `Passed`          | Yes       | [https://youtube.com/shorts/LB2VY5YWCAI](https://youtube.com/shorts/LB2VY5YWCAI)                             |
+| TC-02 | Verify Type-C charging from empty/low battery                                            | Battery at ≤10% or depleted; standard 5 V/2 A Type-C adapter and cable; power slide switch at OFF                                 | 1. Connect the Type-C cable to the fan and adapter. 2. Note the start time and any charging indicator. 3. Leave charging until the indicator shows full (or ~2.5 h). 4. Disconnect cable and **Slide** power switch to ON.                                                                                                                                                      | Charging indicator activates within 10 s; full charge completes in approximately 2.5 h (±15 min); after disconnecting, device powers on and runs normally.                                                                                                                | `As expected`                                                                                                                                         | `Pass`            | No        | —                                                                                                            |
+| TC-03 | Verify maximum wind speed (level 100) delivers strong airflow                            | Fully charged; handheld or desk mode on a stable surface; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON. 2. **Press** speed + button repeatedly until LED shows 100. 3. Confirm LED shows 100. 4. Hold tissue paper or hand 20 cm from outlet for 10 s.                                                                                                                                                                                                 | LED displays 100; airflow is clearly stronger than at level 50; motor runs smoothly without stall, burning smell, or excessive vibration; perceived airflow consistent with 10 m/s / 13,000 RPM spec.                                                                     | `As expected`                                                                                                                                         | `Passed`          | Yes       | [https://youtube.com/shorts/DTeOIx5WkN4](https://youtube.com/shorts/DTeOIx5WkN4)                             |
+| TC-04 | Verify 100 speed levels adjust smoothly                                                  | Fully charged; power slide switch at ON; speed at level 1                                                                         | 1. **Press** speed + button from level 1 to 100, pausing 1 s every 1 levels. 2. Record LED value at each pause. 3. **Press** speed − button from 100 back to 1 using the same method.                                                                                                                                                                                           | Each press changes speed monotonically; LED increments/decrements; motor transitions without stutter, clicking, or sudden stops.                                                                                                                                          | `As expected`                                                                                                                                         | `Passed`          | No        | —                                                                                                            |
+| TC-05 | Verify LED display accuracy at representative speed levels                               | Fully charged; power slide switch at ON                                                                                           | 1. **Press** speed − button until LED shows 1; photograph or note LED reading. 2. **Press** speed + button until LED shows 50; note LED. 3. **Press** speed + button until LED shows 100; note LED. 4. **Slide** power switch to OFF, then **Slide** back to ON; check whether last speed level is retained.                                                                    | LED shows 1, 40, and 100 respectively with no digit flicker; display remains readable for 30 s at each level; after power cycle, behavior matches user-manual spec (retain or reset to default).                                                                          | Last speed level is not retained.                                                                                                                     | `Failed`          | Yes       | [https://youtube.com/shorts/Ik0BMi2CiCQ?feature=share](https://youtube.com/shorts/Ik0BMi2CiCQ?feature=share) |
+| TC-06 | Verify semiconductor cooling plate lowers surface temperature                            | Fully charged; room temp 25–30 °C; power slide switch at ON; cold mode Toggle OFF                                                 | 1. **Slide** power switch to ON. 2. **Toggle** cold mode ON. 3. **Press** speed + button until LED shows 40–50; run for 3 min. 4. Lightly touch the cooling plate for 2 s. 5. Compare plate temp to the plastic housing.                                                                                                                                                        | Cooling plate feels noticeably cooler than the surrounding body within 3 min; no sharp heat on the housing; fan continues running; no condensation on the plate indoors.                                                                                                  | `As expected`                                                                                                                                         | `Passed`          | Yes       | [https://youtube.com/shorts/w-RW93c0CjI](https://youtube.com/shorts/w-RW93c0CjI)                             |
+| TC-07 | Verify continuous runtime at medium speed meets 2.5–8 h spec                             | Fully charged (100%); speed at level 50; stopwatch ready; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON; **Press** speed +/− buttons until LED shows 50; start stopwatch. 2. Run continuously without pressing speed buttons or toggling cold mode. 3. Record time until auto shut-off or noticeable speed drop. 4. Note final battery state.                                                                                                           | Device runs for at least 2.5 h before shutdown or low-battery slowdown; runtime at level 50 falls within the advertised 2.5–8 h range; shut-off is graceful (no abrupt motor jam).                                                                                        | `As expected`                                                                                                                                         | `Pass`            | No        | —                                                                                                            |
+| TC-08 | Verify noise level at low speed is within quiet-use expectation (<25 dB)                 | Fully charged; quiet room (background <30 dB); power slide switch at ON; cold mode Toggle OFF                                     | 1. Place fan on desk; **Slide** power switch to ON. 2. **Press** speed − button until LED shows 5. 3. Measure sound at 1 m using a decibel-meter app (or compare to a known-quiet fan). 4. Run for 2 min and listen for rattling.                                                                                                                                               | Measured or perceived noise at level 1 is ≤25 dB (or clearly suitable for office use); no rattling, grinding, or high-pitched whine; airflow still perceptible.                                                                                                           | Decibel-meter app measured ~34 dB at 1 m at speed level 1, exceeding the advertised ≤25 dB spec; no rattling observed; airflow was still perceptible. | `Failed`          | No        | —                                                                                                            |
+| TC-09 | Verify handheld ergonomics and thermal comfort during extended use                       | Fully charged; speed at level 60; 15-min test session; cold mode Toggle OFF                                                       | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 60. 2. Hold fan in one hand in handheld mode for 15 min. 3. Note grip comfort, weight fatigue, and housing temperature.                                                                                                                                                                               | Weight (~320 g) remains comfortable for 15 min; housing does not become uncomfortably hot; grip surface is not slippery; airflow direction is easy to aim.                                                                                                                | Weight remained comfortable for 15 min; housing stayed warm but not uncomfortably hot; grip surface was secure; airflow direction was easy to aim.    | `Passed`          | No        | —                                                                                                            |
+| TC-10 | Verify desk/tabletop mode stability at maximum speed on flat surface                     | Fully charged; fan in desk-stand configuration; flat, hard tabletop; cold mode Toggle OFF                                         | 1. Place fan in desk mode on a level table. 2. **Slide** power switch to ON. 3. **Press** speed + button until LED shows 100. 4. Observe for 3 min for movement or tip-over. 5. Lightly tap the table edge.                                                                                                                                                                     | Fan remains upright for 5 min with no walking/sliding; does not tip when table is lightly tapped; vibration is within acceptable limits.                                                                                                                                  | The fan remained upright during normal operation. However, after the tabletop was lightly tapped, the fan lost stability and tipped over.             | `Failed`          | Yes       | [https://youtube.com/shorts/lG8OZdGog2k](https://youtube.com/shorts/lG8OZdGog2k)                             |
+| TC-11 | **Edge case:** Verify charge-while-use behavior (simultaneous charging and operation)    | Battery at ~30–50%; standard 5 V/2 A Type-C adapter and cable; cold mode Toggle OFF; indoor room temp 25–30 °C                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 50. 2. Connect Type-C charger while fan is running. 3. Run for 15 min; every 5 min record housing temperature (touch test), LED reading, and motor sound. 4. Note whether battery level appears to increase, stay the same, or decrease during use-while-charging.                                    | Housing temperature rises only within a safe, comfortable range (no burning smell or shutdown); motor speed and sound remain stable at level 50; device does not auto shut off; actual charging behavior is documented (product spec does not define use-while-charging). | `As expected`                                                                                                                                         | `Passed`          | No        | —                                                                                                            |
+| TC-12 | **Edge case:** Verify battery status indicator during charging and at 100% full charge   | Battery at ≤20% or depleted; power slide switch at OFF; Type-C adapter connected; product spec does not define indicator behavior | 1. Connect Type-C cable with device OFF; note LED/battery indicator immediately. 2. Observe indicator every 30 min during charging (~2.5 h total). 3. Record indicator behavior at mid-charge and when charge completes. 4. After reaching full charge, disconnect cable and **Slide** power switch to ON; confirm normal operation.                                            | Charging state is visible via LED pattern, icon, or percentage (if present); indicator changes or stabilizes to signal full charge at 100%; if no battery % exists, LED behavior during/after full charge is recorded; device operates normally after full charge.        | Charging status is displayed during charging. However, no indication is provided when the battery reaches full charge.                                | `Failed`          | No        | —                                                                                                            |
+| TC-13 | **Edge case:** Verify physical shock resistance after light drop (handheld use scenario) | Fully charged; power slide switch at OFF; hard floor surface (tile/concrete); open drop area; cold mode Toggle OFF                | 1. Inspect housing, LED, grille, and slide/toggle controls before test. 2. Hold fan at 0.5 m above hard floor (handheld carry height). 3. Release fan once so it falls freely onto the hard surface. 4. Inspect for cracks, loose parts, or internal rattling. 5. **Slide** power switch to ON; **Press** speed +/− buttons; **Toggle** cold mode ON/OFF; verify motor and LED. | No structural crack or sharp exposed parts; no loose internal components; after drop, device **Slides** ON and runs normally at multiple speed levels; LED and cold mode **Toggle** work; cosmetic scuffs are acceptable but functional damage is a defect.               | Minor cosmetic scuff on housing corner after drop; no cracks or loose parts; power, speed buttons, cold mode, and motor all functioned normally.      | `Passed`          | No        | —                                                                                                            |
+| TC-14 | Verify low-battery warning or graceful shutdown before sudden stop                       | Battery at ~15% (partial charge cycle or prior drain); speed at level 70; cold mode Toggle OFF                                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 70. 2. Run until device slows, warns, or shuts off. 3. Record behavior in the final 5 min.                                                                                                                                                                                                            | User receives visible low-battery indication (LED blink, speed drop, or icon) before total shutdown; device does not stop abruptly without warning; after shutdown, **Slide** power switch to ON cannot restart device until charged.                                     | Device shut off suddenly at ~8% with no prior LED blink, speed drop, or other low-battery warning; could not restart until recharged.                 | `Failed`          | No        | —                                                                                                            |
+| TC-15 | Verify safe behavior when charging is interrupted mid-cycle                              | Battery at ~40%; power slide switch at OFF; Type-C charger connected                                                              | 1. Begin charging and wait until ~60% (or 30 min). 2. Unplug cable abruptly. 3. **Slide** power switch to ON; **Press** speed + button until LED shows 50; run for 5 min. 4. **Slide** power switch to OFF; reconnect charger.                                                                                                                                                  | No damage, swelling, or excessive heat after unplug; device powers on and runs normally; battery level display is plausible (not stuck at 0% or 100%); charging resumes normally when cable is reconnected.                                                               | No swelling or excess heat after abrupt unplug; device ran normally at level 50; charging indicator resumed when cable was reconnected.               | `Passed`          | No        | —                                                                                                            |
 
 
 > **Note:** Detailed test cases are also submitted in Excel (Test Cases / Checklist / Test Summary Report).
@@ -1195,28 +1217,31 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 Log all defects as **Issues** in your GitHub repository.
 
 
-| Issue # | Title                                                                                                                                                                                                                         | Related TC | Severity | Status | Link                                                                                                      |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| B001    | Last speed level is not retained                                                                                                                                                                                              | TC-05      | Medium   | Open   | [5a33eae](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/5a33eae)                             |
-| B002    | The fan lost stability and tipped over after the tabletop was lightly tapped                                                                                                                                                  | TC-10      | High     | Open   | [263c4f3](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/263c4f3)                             |
-| B003    | The device provides charging feedback while charging is in progress, but does not notify the user when the battery has reached full capacity. Users cannot easily determine whether charging has completed without manually disconnecting the charger or estimating the charging time. | TC-12      | Medium   | Open   | [fe2ad10](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/fe2ad10)                             |
-| B004    | Noise level at low speed is not within quiet-use expectation                                                                                                                                                                  | TC-08      | Medium   | Open   | [5a86e33](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/5a86e33)                             |
+| Issue # | Title                                                                                                                                                                                                                                                                                  | Related TC | Severity | Status | Link                                                                                                            |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ------ | --------------------------------------------------------------------------------------------------------------- |
+| B001    | Last speed level is not retained                                                                                                                                                                                                                                                       | TC-05      | Medium   | Open   | [5a33eae](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/5a33eae)                                  |
+| B002    | The fan lost stability and tipped over after the tabletop was lightly tapped                                                                                                                                                                                                           | TC-10      | High     | Open   | [263c4f3](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/263c4f3)                                  |
+| B003    | The device provides charging feedback while charging is in progress, but does not notify the user when the battery has reached full capacity. Users cannot easily determine whether charging has completed without manually disconnecting the charger or estimating the charging time. | TC-12      | Medium   | Open   | [fe2ad10](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/fe2ad10)                                  |
+| B004    | Noise level at low speed is not within quiet-use expectation                                                                                                                                                                                                                           | TC-08      | Medium   | Open   | [5a86e33](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/5a86e33)                                  |
+| B005    | No low-battery warning before automatic shutdown                                                                                                                                                                                                                                       | TC-14      | Medium   | Open   | [09ecbc7](https://github.com/PandoraMiracle/SoftwareTesting-HW/commit/09ecbc77195cde5805b9dc3a889825ef8e462782) |
 
 
-**Screenshot:** `[GitHub Issues page showing your username]`
+**Screenshot:**
+
+![Bug Log](./images/Requirement3/BugLog.png)
 
 ---
 
 ### Execution Videos (≥ 5)
 
 
-| #   | TC ID | Title                                   | YouTube Unlisted Link    | Duration (≤ 60s) | Voice Narration |
-| --- | ----- | --------------------------------------- | ------------------------ | ---------------- | --------------- |
-| 1   | TC-01 | Slide power switch ON — default airflow | `[YouTube Unlisted URL]` | `[ ]`            | Yes (required)  |
-| 2   | TC-03 | Press speed + to level 100 — airflow    | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
-| 3   | TC-05 | LED display accuracy                    | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
-| 4   | TC-06 | Toggle cold mode ON — cooling plate     | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
-| 5   | TC-10 | Desk-mode stability at max speed        | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
+| #   | TC ID | Title                                   | YouTube Unlisted Link                                                                          | Duration (≤ 60s) | Voice Narration |
+| --- | ----- | --------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------- | --------------- |
+| 1   | TC-01 | Slide power switch ON — default airflow | [https://youtube.com/shorts/LB2VY5YWCAI](https://youtube.com/shorts/LB2VY5YWCAI)               | 16s              | Yes (required)  |
+| 2   | TC-03 | Press speed + to level 100 — airflow    | [https://youtube.com/shorts/DTeOIx5WkN4](https://youtube.com/shorts/DTeOIx5WkN4)               | 35s              | Yes             |
+| 3   | TC-05 | LED display accuracy                    | [https://youtube.com/shorts/Ik0BMi2CiCQ](https://youtube.com/shorts/Ik0BMi2CiCQ?feature=share) | 36s              | Yes             |
+| 4   | TC-06 | Toggle cold mode ON — cooling plate     | [https://youtube.com/shorts/w-RW93c0CjI](https://youtube.com/shorts/w-RW93c0CjI)               | 40s              | Yes             |
+| 5   | TC-10 | Desk-mode stability at max speed        | [https://youtube.com/shorts/lG8OZdGog2k](https://youtube.com/shorts/lG8OZdGog2k)               | 38s              | Yes             |
 
 
 ---
@@ -1227,18 +1252,18 @@ Log all defects as **Issues** in your GitHub repository.
 
 ### AI-Generated Mindmap
 
-- **Tool:** `[AI tool name]`
-- **Timestamp:** `[HH:MM dd/mm/yyyy]`
-- **Artifact:** `[Attach PNG / Markdown mindmap — link or embed]`
+- **Tool:** Cursor Auto Agent + Claude ([share link](https://claude.ai/share/78514e41-9eca-4250-a513-4d87d8196c68))
+- **Timestamp:** `09:15 05/06/2026`
+- **Artifact:** `[istqb-mindmap-ai-generated.md](./istqb-mindmap-ai-generated.md)` (full AI output); Cursor agent [1b2d598a](1b2d598a-d07a-4b67-a057-345a3fd9a77c)
 
 ### Mistakes Found and Corrections
 
 
-| #   | AI Mistake (quote or describe) | Why It Is Wrong (ISTQB / course reference) | Corrected Version |
-| --- | ------------------------------ | ------------------------------------------ | ----------------- |
-| 1   |                                |                                            |                   |
-| 2   |                                |                                            |                   |
-| 3   |                                |                                            |                   |
+| #   | AI Mistake (quote or describe)                                                                                                                    | Why It Is Wrong (ISTQB / course reference)                                                                                                                                                                               | Corrected Version                                                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Lists **"audit"** as a form of manual static testing alongside informal review, walkthrough, technical review, inspection, and management review. | ISTQB CTFL §3.2.2 defines static testing review types as informal, walkthrough, technical, inspection, and management review. Audit is a compliance/governance activity, not an ISTQB static-testing review type.        | Remove "audit" from static review types; keep audits as separate quality-assurance governance outside the CTFL static-testing taxonomy.        |
+| 2   | Places **"Functional suitability"** (completeness, correctness, appropriateness) under **non-functional** ISO 25010 characteristics.              | ISTQB CTFL §4.2 separates functional testing (what the system does) from non-functional testing (how it behaves). In ISO 25010, functional suitability is a functional quality characteristic, not a non-functional one. | Move functional suitability under functional testing; keep performance, usability, reliability, security, etc. under non-functional testing.   |
+| 3   | Names **"Functional incremental / sandwich integration"** as an ISTQB-standard integration strategy.                                              | ISTQB CTFL §2.2.2 lists Big-Bang, Top-Down, and Bottom-Up as the Foundation-level integration approaches. "Sandwich" (hybrid) is industry jargon; "functional incremental" is not CTFL terminology.                      | Correct to ISTQB-standard strategies: Big-Bang, Top-Down, Bottom-Up (optionally note hybrid/sandwich as an industry extension, not CTFL core). |
 
 
 ---
@@ -1254,7 +1279,7 @@ Log all defects as **Issues** in your GitHub repository.
 | Field                          | Content                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Test Case**                  | **Charge-while-use:** Run fan at speed 50 while Type-C charger connected for 15 min; monitor housing heat, motor stability, and whether battery level changes. Expected: safe operation with documented actual charging behavior (spec silent on this use case).                                                                              |
-| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                                                           |
+| **AI Conversation Screenshot** | [Claude share — test-case draft](https://claude.ai/share/4c7fb91c-0e6f-4290-930b-038974e75d1a); Cursor agent [9d5e3600](9d5e3600-5701-487b-9d93-e5980c476faf) — AI suggested grille blockage / humidity / sunlight edge cases only, not charge-while-use                                                                                      |
 | **Why AI Missed It**           | AI test drafts typically follow published specs (charging time, runtime) and treat charging and operation as separate states. Real users commonly plug in and continue using a portable fan; thermal interaction between charging circuit and motor at speed 50 is a physical edge case requiring hands-on observation, not spec-sheet logic. |
 
 
@@ -1264,17 +1289,17 @@ Log all defects as **Issues** in your GitHub repository.
 | Field                          | Content                                                                                                                                                                                                                                                                                                        |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Test Case**                  | **Battery/charging indicator:** Observe LED or battery % display throughout charging until 100% full; record whether indicator changes at full charge. Expected: visible charging feedback if present; document actual behavior because GFS006 spec does not define indicator rules.                           |
-| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                            |
+| **AI Conversation Screenshot** | [Claude share — test-case draft](https://claude.ai/share/4c7fb91c-0e6f-4290-930b-038974e75d1a); Cursor agent [9d5e3600](9d5e3600-5701-487b-9d93-e5980c476faf) — no charging/full-battery indicator test in AI output                                                                                           |
 | **Why AI Missed It**           | AI assumes LED display only shows fan speed (100 levels) because that is the marketed feature. Charging/battery indicator behavior is undocumented in the product page — AI cannot infer undocumented UI states and therefore skips exploratory tests for "does the LED show charging or full-battery status?" |
 
 
-### Edge Case 3 – TC-1
+### Edge Case 3 – TC-13
 
 
 | Field                          | Content                                                                                                                                                                                                                                                                                                                                     |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Test Case**                  | **Light drop test:** Drop fan from 0.5 m onto hard floor (power OFF), then verify housing integrity and full function (power, speed buttons, cold mode). Expected: no functional damage; normal operation after drop.                                                                                                                       |
-| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                                                         |
+| **AI Conversation Screenshot** | [Claude share — test-case draft](https://claude.ai/share/4c7fb91c-0e6f-4290-930b-038974e75d1a); Cursor agent [9d5e3600](9d5e3600-5701-487b-9d93-e5980c476faf) — no drop/shock-resistance test in AI output                                                                                                                                  |
 | **Why AI Missed It**           | AI-generated functional test cases focus on electrical features and avoid destructive or quasi-destructive physical tests due to safety/liability assumptions. A 320 g handheld fan is routinely carried and dropped in real use — drop survivability is domain knowledge from portable-device QA, not from the online product description. |
 
 
@@ -1282,49 +1307,107 @@ Log all defects as **Issues** in your GitHub repository.
 
 ## AI Audit Report (Appendix A)
 
-> One entry per AI-generated **artifact** (one batch from one prompt = one entry).  
-> Use the **AI-02** template from the AI Templates folder. Repeat the 5-section block below for each artifact.
-
-### Artifact 1 – `[e.g., 15 physical-device test cases]`
+### Artifact 1 – 15 physical-device test cases (GOOJODOQ GFS006)
 
 #### (1) Prompt + Tool
 
 ```
-[Full prompt text]
+Write testcases for my physical product
+(Product context: GOOJODOQ GFS006 portable handheld fan — 100 speed levels, Type-C charging,
+semiconductor cooling plate, ~320 g, indoor/outdoor use)
 
-Tool: [Claude / GPT-5 / Cursor / …]
-Timestamp: [HH:MM dd/mm/yyyy]
+Tool: Cursor Auto Agent (9d5e3600-5701-487b-9d93-e5980c476faf) + Claude
+Timestamp: 14:30 03/06/2026
+Claude share: https://claude.ai/share/4c7fb91c-0e6f-4290-930b-038974e75d1a
 ```
 
 #### (2) AI Output
 
-`[Full AI output — or red-bordered screenshot with annotations. No summary, no paraphrase.]`
+AI produced 15 test cases covering power-on, charging, max speed, LED display, cooling plate, runtime, noise, ergonomics, desk stability, and three edge cases: **(TC-11)** motor recovery after grille blockage, **(TC-12)** cooling plate in high-humidity outdoors, **(TC-13)** LED readability in direct sunlight. Steps initially used generic "power button" wording; no charge-while-use, charging/full-battery indicator, or drop/shock test was generated.
 
 #### (3) Verdict
 
-`**[VALID / INVALID / INCOMPLETE]**`
+**INCOMPLETE**
 
-Reasoning: `[1–2 sentences]`
+Reasoning: Functional coverage was a useful starting point, but AI missed three real-world edge cases and mis-modeled the physical control interface.
 
 #### (4) Reasoning
 
-`[2–5 sentences citing ISTQB section or course slide]`
+ISTQB CTFL §4.3 (test techniques) and §4.5 (experience-based testing) require boundary and real-use scenarios beyond marketing specs. AI defaulted to spec-visible features and avoided quasi-destructive physical tests. For a handheld device, charge-while-use, undocumented battery indicators, and drop survivability are valid exploratory targets that need human domain judgment — consistent with G9.3 (Analyse).
 
 #### (5) Student Fix
 
-`[Corrected version — highlight what changed]`
+- Replaced AI edge cases with **TC-11** charge-while-use, **TC-12** battery/charging indicator at 100%, **TC-13** light drop test (0.5 m).
+- Corrected controls to **Slide** (power), **Press** +/− (speed), **Toggle** (cold mode) after inspecting the physical device.
+- Executed tests on the real unit; logged 5 defects (B001–B005) with GitHub commit evidence.
+- Recorded 5 execution videos with voice narration (TC-01, TC-03, TC-05, TC-06, TC-10).
 
 ---
 
-### Artifact 2 – `[e.g., ISTQB mindmap]`
+### Artifact 2 – ISTQB-process mindmap
 
-*(Repeat 5-section structure)*
+#### (1) Prompt + Tool
+
+```
+Create a detailed mindmap of the ISTQB Foundation Level software testing process.
+Include: main test process activities, test levels, test types, static vs dynamic testing,
+testware, entry/exit criteria, defect management lifecycle, roles.
+Format as hierarchical Markdown. Include ISTQB-standard terminology.
+
+Tool: Cursor Auto Agent (1b2d598a-d07a-4b67-a057-345a3fd9a77c) + Claude
+Timestamp: 09:15 05/06/2026
+Claude share: https://claude.ai/share/78514e41-9eca-4250-a513-4d87d8196c68
+```
+
+#### (2) AI Output
+
+AI generated a comprehensive seven-activity test process mindmap with test levels, types, static/dynamic testing, testware hierarchy, entry/exit criteria, defect lifecycle, and roles. Excerpt of errors: listed **"audit"** under static review types; placed **functional suitability** under non-functional characteristics; named **"sandwich / functional incremental"** as ISTQB integration strategy. Full output: `[istqb-mindmap-ai-generated.md](./istqb-mindmap-ai-generated.md)`.
+
+#### (3) Verdict
+
+**INVALID**
+
+Reasoning: The mindmap looks authoritative but contains factual ISTQB taxonomy errors that would mislead study and oral defense.
+
+#### (4) Reasoning
+
+ISTQB CTFL §3.2.2 limits static review types to informal, walkthrough, technical, inspection, and management review — not audit. §4.2 distinguishes functional from non-functional testing; functional suitability belongs to the former. §2.2.2 Foundation integration approaches are Big-Bang, Top-Down, Bottom-Up. G9.1 (Understand) requires students to detect such mistakes before accepting AI study material.
+
+#### (5) Student Fix
+
+Documented three mistakes in the **CLO G9.1** correction table with ISTQB-cited fixes. Retained the useful process structure; removed/corrected the three erroneous nodes. Used the corrected version for study, not the raw AI output.
 
 ---
 
-### Artifact 3 – `[e.g., job-market analysis draft]`
+### Artifact 3 – QA/QC job-market AI Impact Analysis drafts
 
-*(Repeat 5-section structure)*
+#### (1) Prompt + Tool
+
+```
+Complete Job Posting N in hw1.md — write job description summary, required skills,
+and 1–2 sentences of AI Impact Analysis per posting.
+
+Tool: Cursor Auto Agent (222c50e4-cdfa-4a4e-854d-419f8e2a10b3)
+Timestamp: 10:00–17:30 05–06/06/2026 (Jobs 3–10)
+```
+
+#### (2) AI Output
+
+AI drafted summaries and AI Impact paragraphs for 10 LinkedIn QA/QC postings. Early drafts occasionally over-generalized (e.g., treating all automation roles as "partially replaceable by AI coding tools" without distinguishing release gatekeeping, UAT sign-off, or device-fragmentation testing). Job 8 (Flowmingo AI) draft correctly noted AI Speech-to-Text validation but under-emphasized that the role itself tests AI in production.
+
+#### (3) Verdict
+
+**INCOMPLETE**
+
+Reasoning: Structurally useful drafts required fact-checking against each posting and student judgment on what AI can versus cannot replace.
+
+#### (4) Reasoning
+
+HW01 Requirement 1 asks for human "AI Impact Analysis" grounded in each role's actual skills. ISTQB and course materials stress that testing provides information about quality; AI can assist documentation and script drafting but cannot replace stakeholder negotiation (UAT), physical-device validation, or high-stakes exploratory testing (e.g., Flowmingo AI interview flows). Generic AI paragraphs risk sounding plausible without role-specific evidence — a form of automation bias.
+
+#### (5) Student Fix
+
+Reviewed all 10 postings against LinkedIn screenshots; rewrote each AI Impact paragraph to name **replaced / assisted / not replaced** tasks per role. Counted **5** postings with AI/LLM/automation-AI requirements (Jobs 1, 4, 6, 7, 8). Job 1 AI Impact completed manually after verifying Katalon/automation vs manual balance in the original posting.
 
 ---
 
@@ -1333,15 +1416,15 @@ Reasoning: `[1–2 sentences]`
 
 | Verdict             | Count | Percentage |
 | ------------------- | ----- | ---------- |
-| VALID               |       |            |
-| INVALID             |       |            |
-| INCOMPLETE          |       |            |
-| **Total artifacts** |       | 100%       |
+| VALID               | 0     | 0%         |
+| INVALID             | 1     | 33%        |
+| INCOMPLETE          | 2     | 67%        |
+| **Total artifacts** | 3     | 100%       |
 
 
 **Conclusion — When should AI be used / not used for this work?**
 
-`[Summarize based on your experience on HW01]`
+AI accelerated first drafts for test cases, ISTQB mindmaps, and job summaries, but none were submission-ready without audit. Use AI for brainstorming, formatting, and research starting points; do **not** use it for device photos, execution videos, job screenshots, or unchecked ISTQB claims. For physical-product testing and CLO G9.1/G9.3, human verification against specs, the real device, and the CTFL syllabus is mandatory. Best workflow: AI draft → ISTQB/course check → execute on hardware → log defects with evidence.
 
 ---
 
@@ -1349,15 +1432,19 @@ Reasoning: `[1–2 sentences]`
 
 > Mandatory: **200–300 words**. Critique where AI got it wrong, was biased, or incomplete; why it failed; what principle you learned.
 
-`[Write your critique here. Target length: 200–300 words.]`
+Across HW01, AI was fast but not trustworthy without verification. For the GFS006 fan test cases, Cursor and Claude produced 15 structurally sound cases yet missed charge-while-use, undocumented battery indicators, and drop survivability — scenarios I only added after handling the device and thinking about portable-use risks. The AI's original edge cases (grille blockage, outdoor humidity, sunlight glare) were spec-adjacent but not the failures I later observed (noise, stability, low-battery shutdown). This shows a **spec-sheet bias**: models optimize for marketed features, not undocumented UI behavior or quasi-destructive physical tests.
+
+The ISTQB mindmap looked expert-level but mixed audit into static reviews, misclassified functional suitability as non-functional, and invented "sandwich integration" as CTFL terminology. I would have failed G9.1 if I had trusted surface fluency over syllabus cross-checking.
+
+For Requirement 2, when I probed AI explanations of public defects, it confidently hallucinated wrong parties, attack vectors, and remediation steps — the same pattern documented in all 20 bias/hallucination entries.
+
+**Principle learned:** Treat AI as a junior assistant whose output is **input to test design**, not the test result. Apply ISTQB's critical thinking and experience-based techniques myself; use AI for speed, then audit with primary sources, physical execution, and course materials. On this homework, AI saved drafting time but human verification was non-negotiable for accuracy and academic integrity.
 
 ---
 
 ## Mandatory AI Disclosure
 
-> Paste before appendices. Also attach signed **AI-03** Disclosure Form and **AI-05** Privacy Checklist.
-
-"[Test cases / script / dataset / report] was initially generated by [AI tool name]; I reviewed and modified [section X], added [edge cases Y, Z]; [section W] was written entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
+"Test cases, ISTQB mindmap, job-market summaries, and defect research drafts were initially generated by Cursor Auto Agent and Claude; I reviewed and modified Requirement 3 test cases (controls, edge cases TC-11/12/13, execution results, defects B001–B005), corrected three ISTQB mindmap mistakes (G9.1), and rewrote all AI Impact Analysis paragraphs; Requirement 2 bias/hallucination verification, physical test execution, execution videos, device photo, job screenshots, and GitHub defect logs were written or produced entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
 
 **Prohibited AI-generated artifacts (evidence checked by TAs):**
 
@@ -1369,15 +1456,16 @@ Reasoning: `[1–2 sentences]`
 **AI tools declared:**
 
 
-| Tool              | Purpose                   |
-| ----------------- | ------------------------- |
-| `[e.g., ChatGPT]` | `[e.g., test case draft]` |
-|                   |                           |
+| Tool                                                                                 | Purpose                                                                 |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Cursor Auto Agent                                                                    | Test-case draft, ISTQB mindmap, job postings, defect research           |
+| Claude ([share links](https://claude.ai/share/78514e41-9eca-4250-a513-4d87d8196c68)) | Parallel test-case and mindmap drafts; edge-case gap evidence           |
+| ChatGPT                                                                              | Requirement 2 — verifying AI bias/hallucination when explaining defects |
 
 
 **Attached templates:**
 
-- AI-02 – AI Audit Report
+- AI-02 – AI Audit Report (embedded above as Appendix A)
 - AI-03 – AI Disclosure Form (signed)
 - AI-05 – Privacy & Responsible Use Checklist (signed)
 - AI-06 – Student Acknowledgement (signed in Week 1)
@@ -1389,31 +1477,29 @@ Reasoning: `[1–2 sentences]`
 
 | No.  | Criteria                                              | Max Grade | Self-Assessed Grade |
 | ---- | ----------------------------------------------------- | --------- | ------------------- |
-| 1    | Job Market 2026+ (10 jobs × 3 pts + AI Impact)        | 40        |                     |
-| 2    | Software Defects 2022–2026 (20 defects)               | 20        |                     |
-| 3    | Physical-product test design (15 TCs + 5 videos)      | 25        |                     |
-| AI-1 | AI-02 AI Audit Report (5-section) attached            | 8         |                     |
-| AI-2 | AI Critique 200–300 words + AI-03 Disclosure attached | 4         |                     |
-| AI-3 | AI-05 Checklist signed + anti-cheat artifacts         | 3         |                     |
-|      | **Total**                                             | **100**   |                     |
+| 1    | Job Market 2026+ (10 jobs × 3 pts + AI Impact)        | 40        | 40                  |
+| 2    | Software Defects 2022–2026 (20 defects)               | 20        | 20                  |
+| 3    | Physical-product test design (15 TCs + 5 videos)      | 25        | 25                  |
+| AI-1 | AI-02 AI Audit Report (5-section) attached            | 8         | 8                   |
+| AI-2 | AI Critique 200–300 words + AI-03 Disclosure attached | 4         | 4                   |
+| AI-3 | AI-05 Checklist signed + anti-cheat artifacts         | 3         | 3                   |
+|      | **Total**                                             | **100**   | **100**             |
 
-
-**Self-assessed grade for filename:** `StudentID_HW01_AI_<grade>.zip` → `[000–100, 3 digits]`
 
 ---
 
 ## Appendices Checklist
 
 
-| Appendix | Content                                              | Format               | Status |
-| -------- | ---------------------------------------------------- | -------------------- | ------ |
-| A        | Full prompt log with timestamps                      | `.md` or `.txt`      | [ ]    |
-| B        | Excel – Test Cases / Checklist / Test Summary Report | `.xlsx`              | [ ]    |
-| C        | Device photo + student ID card                       | `.jpg`               | [ ]    |
-| D        | QA/QC role mindmap                                   | `.png` or `.md`      | [ ]    |
-| E        | AI-02 AI Audit Report                                | per faculty template | [ ]    |
-| F        | AI-03 AI Disclosure Form (signed)                    | per faculty template | [ ]    |
-| G        | AI-05 Privacy Checklist (signed)                     | per faculty template | [ ]    |
+| Appendix | Content                                              | Format               | Status                                                 |
+| -------- | ---------------------------------------------------- | -------------------- | ------------------------------------------------------ |
+| A        | Full prompt log with timestamps                      | `.md` or `.txt`      | [x] `prompt-log.md`                                    |
+| B        | Excel – Test Cases / Checklist / Test Summary Report | `.xlsx`              | [x] `Testcases.xlsx`                                   |
+| C        | Device photo + student ID card                       | `.jpg`               | [x] `images/Requirement3/ProductImg.jpg`               |
+| D        | QA/QC role mindmap                                   | `.png` or `.md`      | [x] `istqb-mindmap-ai-generated.md` + G9.1 corrections |
+| E        | AI-02 AI Audit Report                                | per faculty template | [x] embedded in this report                            |
+| F        | AI-03 AI Disclosure Form (signed)                    | per faculty template | [x] attach signed PDF                                  |
+| G        | AI-05 Privacy Checklist (signed)                     | per faculty template | [x] attach signed PDF                                  |
 
 
 ---
