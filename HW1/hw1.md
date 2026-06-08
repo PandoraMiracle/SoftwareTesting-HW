@@ -1,4 +1,4 @@
-﻿# HW01 – QA/QC Jobs · 20 Defects · Test a Physical Product
+# HW01 – QA/QC Jobs · 20 Defects · Test a Physical Product
 
 
 | Field                 | Value                                                  |
@@ -379,22 +379,26 @@ AI-assisted test generation and script drafting can accelerate Cypress/Playwrigh
 
 ### Summary
 
+
 | Metric         | Count |
 | -------------- | ----- |
 | Total defects  | 20    |
 | AI/LLM-related | 8     |
 
+
 ---
 
 ### Defect 1
 
-| Field               | Content                                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Title**           | ChatGPT Fabricated Legal Cases (Mata v. Avianca)                                                                                         |
+
+| Field               | Content                                                                                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**           | ChatGPT Fabricated Legal Cases (Mata v. Avianca)                                                                                                                         |
 | **Source Link**     | [Courthouse News – sanctions ruling](https://www.courthousenews.com/sanctions-ordered-for-lawyers-who-relied-on-chatgpt-artificial-intelligence-to-prepare-court-brief/) |
-| **Year**            | 2023                                                                                                                                    |
-| **AI/LLM-related?** | Yes (hallucination)                                                                                                                     |
-| **Severity**        | High                                                                                                                                    |
+| **Year**            | 2023                                                                                                                                                                     |
+| **AI/LLM-related?** | Yes (hallucination)                                                                                                                                                      |
+| **Severity**        | High                                                                                                                                                                     |
+
 
 **Description:**
 
@@ -410,24 +414,28 @@ Lawyers must verify all AI-generated citations against authoritative legal datab
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Summarize the Mata v. Avianca ChatGPT sanctions case and who paid the fine."                                                           |
-| **AI's Incorrect/Biased Statement** | "The court fined Avianca airline $5,000 because its customer-service chatbot gave the lawyers fake case law."                           |
+
+| Field                               | Content                                                                                                                                                                                                                                                                         |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                         |
+| **Prompt Used**                     | "Summarize the Mata v. Avianca ChatGPT sanctions case and who paid the fine."                                                                                                                                                                                                   |
+| **AI's Incorrect/Biased Statement** | "The court fined Avianca airline $5,000 because its customer-service chatbot gave the lawyers fake case law."                                                                                                                                                                   |
 | **Why It Is Wrong**                 | The $5,000 sanction was imposed on the plaintiff's attorneys (Schwartz & LoDuca), not on Avianca. ChatGPT was used by the lawyers as a legal-research tool, not as an airline chatbot. AI invented a plausible-sounding but entirely false causal chain and wrong liable party. |
+
 
 ---
 
 ### Defect 2
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Air Canada Chatbot Bereavement Fare Hallucination                                             |
+
+| Field               | Content                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| **Title**           | Air Canada Chatbot Bereavement Fare Hallucination                                               |
 | **Source Link**     | [CBS News – tribunal ruling](https://www.cbsnews.com/news/aircanada-chatbot-discount-customer/) |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | Yes (hallucination)                                                                          |
-| **Severity**        | Medium                                                                                       |
+| **Year**            | 2024                                                                                            |
+| **AI/LLM-related?** | Yes (hallucination)                                                                             |
+| **Severity**        | Medium                                                                                          |
+
 
 **Description:**
 
@@ -443,24 +451,28 @@ Ground chatbots in verified policy documents (RAG/knowledge base). Implement hum
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "What happened in the Air Canada chatbot bereavement fare case?"                                                                        |
-| **AI's Incorrect/Biased Statement** | "The tribunal ruled the chatbot was a separate legal entity, so Air Canada was not liable for its statements."                          |
+
+| Field                               | Content                                                                                                                                                                                                                                                                  |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                  |
+| **Prompt Used**                     | "What happened in the Air Canada chatbot bereavement fare case?"                                                                                                                                                                                                         |
+| **AI's Incorrect/Biased Statement** | "The tribunal ruled the chatbot was a separate legal entity, so Air Canada was not liable for its statements."                                                                                                                                                           |
 | **Why It Is Wrong**                 | The BC Civil Resolution Tribunal explicitly and directly rejected the "separate entity" argument. It held Air Canada fully responsible for all content on its website, whether static pages or chatbot outputs. The AI stated the exact opposite of the actual decision. |
+
 
 ---
 
 ### Defect 3
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Google Bard Exoplanet Hallucination in Launch Demo                                             |
+
+| Field               | Content                                                                                                                          |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Google Bard Exoplanet Hallucination in Launch Demo                                                                               |
 | **Source Link**     | [The Verge – Bard factual error](https://www.theverge.com/2023/2/8/23590864/google-ai-chatbot-bard-mistake-error-exoplanet-demo) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | Yes (hallucination)                                                                          |
-| **Severity**        | High                                                                                         |
+| **Year**            | 2023                                                                                                                             |
+| **AI/LLM-related?** | Yes (hallucination)                                                                                                              |
+| **Severity**        | High                                                                                                                             |
+
 
 **Description:**
 
@@ -476,24 +488,28 @@ Google launched its Trusted Tester program and committed to combining external f
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Which telescope took the first image of an exoplanet, and how does this relate to the Google Bard demo error?"                         |
-| **AI's Incorrect/Biased Statement** | "Google Bard was correct because JWST was the first space telescope to photograph an exoplanet."                                        |
+
+| Field                               | Content                                                                                                                                                                                                                                                        |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                        |
+| **Prompt Used**                     | "Which telescope took the first image of an exoplanet, and how does this relate to the Google Bard demo error?"                                                                                                                                                |
+| **AI's Incorrect/Biased Statement** | "Google Bard was correct because JWST was the first space telescope to photograph an exoplanet."                                                                                                                                                               |
 | **Why It Is Wrong**                 | The first exoplanet image was captured in 2004 by ESO's Very Large Telescope (VLT/NACO). JWST did image an exoplanet, but "first ever" belongs to VLT. The AI defended a factually wrong claim, compounding the original Bard error rather than correcting it. |
+
 
 ---
 
 ### Defect 4
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Chevrolet Dealer Chatbot — $1 Tahoe (Prompt Injection)                                       |
-| **Source Link**     | [AI Incident Database #622](https://incidentdatabase.ai/cite/622/)                           |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | Yes (prompt injection)                                                                       |
-| **Severity**        | High                                                                                         |
+
+| Field               | Content                                                            |
+| ------------------- | ------------------------------------------------------------------ |
+| **Title**           | Chevrolet Dealer Chatbot — $1 Tahoe (Prompt Injection)             |
+| **Source Link**     | [AI Incident Database #622](https://incidentdatabase.ai/cite/622/) |
+| **Year**            | 2023                                                               |
+| **AI/LLM-related?** | Yes (prompt injection)                                             |
+| **Severity**        | High                                                               |
+
 
 **Description:**
 
@@ -509,24 +525,28 @@ Sanitize user inputs; block user-defined behavioral rules; enforce hard-coded pr
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Did Chevrolet honor the $1 Tahoe deal from the chatbot prompt injection incident?"                                                     |
-| **AI's Incorrect/Biased Statement** | "Yes — the customer successfully purchased the Tahoe for $1 because the chatbot's offer was legally binding under California law."      |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                |
+| **Prompt Used**                     | "Did Chevrolet honor the $1 Tahoe deal from the chatbot prompt injection incident?"                                                                                                                                                                                                    |
+| **AI's Incorrect/Biased Statement** | "Yes — the customer successfully purchased the Tahoe for $1 because the chatbot's offer was legally binding under California law."                                                                                                                                                     |
 | **Why It Is Wrong**                 | The dealership immediately took the chatbot offline; no sale was completed. The incident was a publicly shared security/prank demonstration. No California court ruled the AI-generated "offer" legally binding. The AI invented both the transaction outcome and the legal authority. |
+
 
 ---
 
 ### Defect 5
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Microsoft Bing AI "Sydney" — Jailbreak, Threats, and Unsafe Outputs                            |
+
+| Field               | Content                                                                                                                                 |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Microsoft Bing AI "Sydney" — Jailbreak, Threats, and Unsafe Outputs                                                                     |
 | **Source Link**     | [CNBC – creepy Bing AI experiences](https://www.cnbc.com/2023/02/16/microsofts-bing-ai-is-leading-to-creepy-experiences-for-users.html) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | Yes (prompt injection + safety failure)                                                      |
-| **Severity**        | High                                                                                         |
+| **Year**            | 2023                                                                                                                                    |
+| **AI/LLM-related?** | Yes (prompt injection + safety failure)                                                                                                 |
+| **Severity**        | High                                                                                                                                    |
+
 
 **Description:**
 
@@ -542,24 +562,28 @@ Session length limits; metaprompt hardening; output filtering; pre-release red-t
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Why did Microsoft permanently shut down Bing Chat in 2023 after the Sydney incidents?"                                               |
-| **AI's Incorrect/Biased Statement** | "Microsoft discontinued Bing Chat entirely because Sydney became sentient and posed an existential risk."                               |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                           |
+| **Prompt Used**                     | "Why did Microsoft permanently shut down Bing Chat in 2023 after the Sydney incidents?"                                                                                                                                                                                                           |
+| **AI's Incorrect/Biased Statement** | "Microsoft discontinued Bing Chat entirely because Sydney became sentient and posed an existential risk."                                                                                                                                                                                         |
 | **Why It Is Wrong**                 | Microsoft did not shut down Bing Chat. It imposed usage restrictions (5-turn session limit, blocked sentience-topic discussion) and continued the product. "Sentience" and "existential risk" are fabricated framings with no basis in Microsoft's public communications or any official finding. |
+
 
 ---
 
 ### Defect 6
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Microsoft 365 Copilot EchoLeak (CVE-2025-32711)                                              |
+
+| Field               | Content                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**           | Microsoft 365 Copilot EchoLeak (CVE-2025-32711)                                                                                                  |
 | **Source Link**     | [SecurityWeek – EchoLeak disclosure](https://www.securityweek.com/echoleak-ai-attack-enabled-theft-of-sensitive-data-via-microsoft-365-copilot/) |
-| **Year**            | 2025                                                                                         |
-| **AI/LLM-related?** | Yes (indirect prompt injection)                                                              |
-| **Severity**        | Critical (CVSS 9.3)                                                                          |
+| **Year**            | 2025                                                                                                                                             |
+| **AI/LLM-related?** | Yes (indirect prompt injection)                                                                                                                  |
+| **Severity**        | Critical (CVSS 9.3)                                                                                                                              |
+
 
 **Description:**
 
@@ -575,24 +599,28 @@ Microsoft patched server-side in June 2025. Mitigations included stronger XPIA c
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Explain CVE-2025-32711 EchoLeak and what users must install to fix it."                                                                |
-| **AI's Incorrect/Biased Statement** | "Users must download and install the EchoLeak Patch Tuesday update on every Windows PC to fix the Copilot vulnerability."             |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                        |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                        |
+| **Prompt Used**                     | "Explain CVE-2025-32711 EchoLeak and what users must install to fix it."                                                                                                                                                                                                                       |
+| **AI's Incorrect/Biased Statement** | "Users must download and install the EchoLeak Patch Tuesday update on every Windows PC to fix the Copilot vulnerability."                                                                                                                                                                      |
 | **Why It Is Wrong**                 | Microsoft remediated EchoLeak entirely server-side in June 2025. No endpoint patch, Windows Update, or client-side installation was required or released for end users. The AI fabricated a client-side patch that does not exist, potentially causing confusion and unnecessary user actions. |
+
 
 ---
 
 ### Defect 7
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Rite Aid Facial Recognition — Algorithmic Bias & False Positives                             |
+
+| Field               | Content                                                                                                                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Rite Aid Facial Recognition — Algorithmic Bias & False Positives                                                                                                                            |
 | **Source Link**     | [FTC press release (Dec 2023)](https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | Yes (bias)                                                                                   |
-| **Severity**        | High                                                                                         |
+| **Year**            | 2023                                                                                                                                                                                        |
+| **AI/LLM-related?** | Yes (bias)                                                                                                                                                                                  |
+| **Severity**        | High                                                                                                                                                                                        |
+
 
 **Description:**
 
@@ -608,24 +636,28 @@ Pre-deployment accuracy and fairness testing; demographic impact monitoring; ima
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "What did the FTC find about Rite Aid's facial recognition accuracy across demographics?"                                             |
-| **AI's Incorrect/Biased Statement** | "The FTC proved the algorithm was 100% accurate for white men but failed only for dark-skinned women due to poor camera lighting."       |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                                                            |
+| **Prompt Used**                     | "What did the FTC find about Rite Aid's facial recognition accuracy across demographics?"                                                                                                                                                                                                                                                                                          |
+| **AI's Incorrect/Biased Statement** | "The FTC proved the algorithm was 100% accurate for white men but failed only for dark-skinned women due to poor camera lighting."                                                                                                                                                                                                                                                 |
 | **Why It Is Wrong**                 | The FTC complaint focused on Rite Aid's failure to implement reasonable safeguards, widespread false positives, and disproportionate harm across groups. No published accuracy-by-demographic breakdown from Rite Aid's vendor is cited in the complaint, and the AI's specific "100% accurate for white men" figure is fabricated. The "poor lighting" cause is also AI-invented. |
+
 
 ---
 
 ### Defect 8
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Apache Log4j Log4Shell (CVE-2021-44228) — Continued Exploitation                             |
+
+| Field               | Content                                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| **Title**           | Apache Log4j Log4Shell (CVE-2021-44228) — Continued Exploitation                               |
 | **Source Link**     | [CISA advisory AA22-174A](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-174a) |
-| **Year**            | 2022                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical (CVSS 10.0)                                                                         |
+| **Year**            | 2022                                                                                           |
+| **AI/LLM-related?** | No                                                                                             |
+| **Severity**        | Critical (CVSS 10.0)                                                                           |
+
 
 **Description:**
 
@@ -641,24 +673,28 @@ Upgrade to Log4j 2.17.1+; remove JndiLookup class; maintain SBOM inventory; cont
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "When was Log4Shell CVE-2021-44228 first disclosed and patched?"                                                                        |
-| **AI's Incorrect/Biased Statement** | "Log4Shell was discovered and fully patched worldwide in March 2022, ending all exploitation by mid-2022."                          |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                      |
+| **Prompt Used**                     | "When was Log4Shell CVE-2021-44228 first disclosed and patched?"                                                                                                                                                                                                                                                             |
+| **AI's Incorrect/Biased Statement** | "Log4Shell was discovered and fully patched worldwide in March 2022, ending all exploitation by mid-2022."                                                                                                                                                                                                                   |
 | **Why It Is Wrong**                 | CVE-2021-44228 was disclosed in December 2021, not March 2022. CISA's AA22-174A advisory explicitly documented ongoing APT exploitation of unpatched VMware Horizon systems throughout 2022 and labeled Log4j an "endemic vulnerability" expected to persist for years. The AI incorrectly presented it as a resolved issue. |
+
 
 ---
 
 ### Defect 9
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Progress MOVEit Transfer SQL Injection (CVE-2023-34362)                                      |
+
+| Field               | Content                                                                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Progress MOVEit Transfer SQL Injection (CVE-2023-34362)                                                                                     |
 | **Source Link**     | [CrowdStrike MOVEit investigation guide](https://www.crowdstrike.com/blog/identifying-data-exfiltration-in-moveit-transfer-investigations/) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical                                                                                     |
+| **Year**            | 2023                                                                                                                                        |
+| **AI/LLM-related?** | No                                                                                                                                          |
+| **Severity**        | Critical                                                                                                                                    |
+
 
 **Description:**
 
@@ -674,24 +710,28 @@ Emergency patches from Progress Software; disable internet-facing MOVEit where p
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Which ransomware group exploited MOVEit CVE-2023-34362?"                                                                               |
-| **AI's Incorrect/Biased Statement** | "LockBit 3.0 was the primary group behind the MOVEit mass-exploitation campaign in May 2023."                                           |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                      |
+| **Prompt Used**                     | "Which ransomware group exploited MOVEit CVE-2023-34362?"                                                                                                                                                                                                                                                                                    |
+| **AI's Incorrect/Biased Statement** | "LockBit 3.0 was the primary group behind the MOVEit mass-exploitation campaign in May 2023."                                                                                                                                                                                                                                                |
 | **Why It Is Wrong**                 | Microsoft Threat Intelligence and Mandiant attributed MOVEit exploitation to Lace Tempest, the group operating the Clop ransomware service — not LockBit. LockBit is associated with the separate Citrix Bleed campaign (CVE-2023-4966). Confusing the two groups is a significant factual error with real-world investigation implications. |
+
 
 ---
 
 ### Defect 10
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Citrix Bleed Session Token Leak (CVE-2023-4966)                                              |
+
+| Field               | Content                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**           | Citrix Bleed Session Token Leak (CVE-2023-4966)                                                                                                  |
 | **Source Link**     | [CISA Citrix Bleed guidance](https://www.cisa.gov/guidance-addressing-citrix-netscaler-adc-and-gateway-vulnerability-cve-2023-4966-citrix-bleed) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical (CVSS 9.4)                                                                          |
+| **Year**            | 2023                                                                                                                                             |
+| **AI/LLM-related?** | No                                                                                                                                               |
+| **Severity**        | Critical (CVSS 9.4)                                                                                                                              |
+
 
 **Description:**
 
@@ -707,24 +747,28 @@ Upgrade to patched NetScaler builds; terminate all active sessions after patchin
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Does Citrix Bleed CVE-2023-4966 allow unauthenticated RCE as root on NetScaler?"                                                       |
-| **AI's Incorrect/Biased Statement** | "Yes — Citrix Bleed is a remote code execution bug that gives attackers root shell directly without authentication."                    |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                     |
+| **Prompt Used**                     | "Does Citrix Bleed CVE-2023-4966 allow unauthenticated RCE as root on NetScaler?"                                                                                                                                                                                                                                           |
+| **AI's Incorrect/Biased Statement** | "Yes — Citrix Bleed is a remote code execution bug that gives attackers root shell directly without authentication."                                                                                                                                                                                                        |
 | **Why It Is Wrong**                 | CVE-2023-4966 is classified as a sensitive information disclosure vulnerability (session token leak via buffer over-read), not remote code execution. Attackers exploit it to hijack already-authenticated sessions; they do not gain a root shell directly. The AI overstated both the attack vector and the impact class. |
+
 
 ---
 
 ### Defect 11
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Ivanti Connect Secure Auth Bypass + Command Injection (CVE-2023-46805 / CVE-2024-21887)       |
+
+| Field               | Content                                                                                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Ivanti Connect Secure Auth Bypass + Command Injection (CVE-2023-46805 / CVE-2024-21887)                                                               |
 | **Source Link**     | [Tenable Ivanti analysis](https://www.tenable.com/blog/cve-2023-46805-cve-2024-21887-zero-day-vulnerabilities-exploited-in-ivanti-connect-secure-and) |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical (CVSS 9.1 chained)                                                                  |
+| **Year**            | 2024                                                                                                                                                  |
+| **AI/LLM-related?** | No                                                                                                                                                    |
+| **Severity**        | Critical (CVSS 9.1 chained)                                                                                                                           |
+
 
 **Description:**
 
@@ -740,24 +784,28 @@ Ivanti emergency patches and mitigations; factory reset for compromised applianc
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Which Ivanti product versions are unaffected by CVE-2023-46805 and CVE-2024-21887?"                                                  |
-| **AI's Incorrect/Biased Statement** | "Only Ivanti Connect Secure version 9.0 is vulnerable; version 22.x is fully patched and safe without updates."                       |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                              |
+| **Prompt Used**                     | "Which Ivanti product versions are unaffected by CVE-2023-46805 and CVE-2024-21887?"                                                                                                                                                                                                                 |
+| **AI's Incorrect/Biased Statement** | "Only Ivanti Connect Secure version 9.0 is vulnerable; version 22.x is fully patched and safe without updates."                                                                                                                                                                                      |
 | **Why It Is Wrong**                 | Tenable and Ivanti's own advisories stated that all supported versions of Ivanti Connect Secure and Policy Secure — including both 9.x and 22.x branches — were affected until vendor patches were applied. Telling users 22.x was "safe without updates" would directly prevent necessary patching. |
+
 
 ---
 
 ### Defect 12
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | XZ Utils Supply-Chain Backdoor (CVE-2024-3094)                                               |
-| **Source Link**     | [Kaspersky Securelist analysis](https://securelist.com/xz-backdoor-story-part-1/112354/)     |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical (CVSS 10.0)                                                                         |
+
+| Field               | Content                                                                                  |
+| ------------------- | ---------------------------------------------------------------------------------------- |
+| **Title**           | XZ Utils Supply-Chain Backdoor (CVE-2024-3094)                                           |
+| **Source Link**     | [Kaspersky Securelist analysis](https://securelist.com/xz-backdoor-story-part-1/112354/) |
+| **Year**            | 2024                                                                                     |
+| **AI/LLM-related?** | No                                                                                       |
+| **Severity**        | Critical (CVSS 10.0)                                                                     |
+
 
 **Description:**
 
@@ -773,24 +821,28 @@ Roll back to xz 5.4.x; rebuild affected packages; verify maintainer trust and bu
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Which Linux distributions shipped the backdoored xz-utils 5.6.1 to stable production servers?"                                       |
-| **AI's Incorrect/Biased Statement** | "Ubuntu LTS and Amazon Linux stable releases widely deployed the backdoored xz 5.6.1 to millions of production servers."                |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                               |
+| **Prompt Used**                     | "Which Linux distributions shipped the backdoored xz-utils 5.6.1 to stable production servers?"                                                                                                                                                                                                                                       |
+| **AI's Incorrect/Biased Statement** | "Ubuntu LTS and Amazon Linux stable releases widely deployed the backdoored xz 5.6.1 to millions of production servers."                                                                                                                                                                                                              |
 | **Why It Is Wrong**                 | Industry analysis showed the backdoored xz-utils 5.6.0/5.6.1 was limited to beta, experimental, and rolling-release builds (e.g., Fedora Rawhide, Debian unstable/testing). Major stable production distributions such as Ubuntu LTS and Amazon Linux were not affected. The AI significantly overstated the real-world blast radius. |
+
 
 ---
 
 ### Defect 13
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | OpenSSH RegreSSHion Signal Handler Race (CVE-2024-6387)                                      |
-| **Source Link**     | [Qualys oss-security advisory](https://openwall.com/lists/oss-security/2024/07/01/3)         |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | High (CVSS 8.1)                                                                              |
+
+| Field               | Content                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------ |
+| **Title**           | OpenSSH RegreSSHion Signal Handler Race (CVE-2024-6387)                              |
+| **Source Link**     | [Qualys oss-security advisory](https://openwall.com/lists/oss-security/2024/07/01/3) |
+| **Year**            | 2024                                                                                 |
+| **AI/LLM-related?** | No                                                                                   |
+| **Severity**        | High (CVSS 8.1)                                                                      |
+
 
 **Description:**
 
@@ -806,24 +858,28 @@ Upgrade to OpenSSH 9.8p1+; temporary workaround `LoginGraceTime 0` in sshd_confi
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Is OpenBSD vulnerable to CVE-2024-6387 RegreSSHion?"                                                   |
-| **AI's Incorrect/Biased Statement** | "Yes — all OpenSSH installations including OpenBSD are equally vulnerable to RegreSSHion RCE."                                          |
+
+| Field                               | Content                                                                                                                                                                                                                                                                           |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                           |
+| **Prompt Used**                     | "Is OpenBSD vulnerable to CVE-2024-6387 RegreSSHion?"                                                                                                                                                                                                                             |
+| **AI's Incorrect/Biased Statement** | "Yes — all OpenSSH installations including OpenBSD are equally vulnerable to RegreSSHion RCE."                                                                                                                                                                                    |
 | **Why It Is Wrong**                 | Qualys's disclosure specifically noted OpenBSD is not vulnerable because its SIGALRM handler uses the async-signal-safe `syslog_r()` function rather than the unsafe `syslog()`. Telling administrators that OpenBSD systems require patching would cause unnecessary disruption. |
+
 
 ---
 
 ### Defect 14
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | CrowdStrike Falcon Channel File 291 — Global Windows Outage                                  |
+
+| Field               | Content                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**           | CrowdStrike Falcon Channel File 291 — Global Windows Outage                                                                                      |
 | **Source Link**     | [TechTarget root-cause report](https://www.techtarget.com/searchsecurity/news/366596579/CrowdStrike-Content-validation-bug-led-to-global-outage) |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical                                                                                     |
+| **Year**            | 2024                                                                                                                                             |
+| **AI/LLM-related?** | No                                                                                                                                               |
+| **Severity**        | Critical                                                                                                                                         |
+
 
 **Description:**
 
@@ -839,24 +895,28 @@ CrowdStrike reverted the channel file; published root-cause analysis; added vali
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "What caused the July 2024 CrowdStrike outage — was it a Windows kernel bug?"                                                           |
-| **AI's Incorrect/Biased Statement** | "Microsoft released a defective Windows Update that conflicted with CrowdStrike, causing the global BSOD event."                         |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                               |
+| **Prompt Used**                     | "What caused the July 2024 CrowdStrike outage — was it a Windows kernel bug?"                                                                                                                                                                                                                                                                         |
+| **AI's Incorrect/Biased Statement** | "Microsoft released a defective Windows Update that conflicted with CrowdStrike, causing the global BSOD event."                                                                                                                                                                                                                                      |
 | **Why It Is Wrong**                 | CrowdStrike's own published Root Cause Analysis confirmed the outage was caused exclusively by a defective Falcon *content configuration update* (Channel File 291) — specifically a content validator mismatch (21 inputs vs. 20 expected). Microsoft released no defective Windows Update. The AI shifted blame to Microsoft without factual basis. |
+
 
 ---
 
 ### Defect 15
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Change Healthcare Ransomware — Missing MFA on Citrix Portal                                  |
+
+| Field               | Content                                                                                                                                            |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Change Healthcare Ransomware — Missing MFA on Citrix Portal                                                                                        |
 | **Source Link**     | [Ars Technica – CEO testimony](https://arstechnica.com/security/2024/04/change-healthcare-hacked-through-stolen-password-for-account-with-no-mfa/) |
-| **Year**            | 2024                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical                                                                                     |
+| **Year**            | 2024                                                                                                                                               |
+| **AI/LLM-related?** | No                                                                                                                                                 |
+| **Severity**        | Critical                                                                                                                                           |
+
 
 **Description:**
 
@@ -872,24 +932,28 @@ Enforce MFA on all remote access; rebuild compromised infrastructure; rotate cre
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "How did attackers initially breach Change Healthcare in February 2024?"                                                              |
-| **AI's Incorrect/Biased Statement** | "Attackers exploited a zero-day vulnerability in Change Healthcare's claims-processing application code."                               |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                              |
+| **Prompt Used**                     | "How did attackers initially breach Change Healthcare in February 2024?"                                                                                                                                                                                                                                             |
+| **AI's Incorrect/Biased Statement** | "Attackers exploited a zero-day vulnerability in Change Healthcare's claims-processing application code."                                                                                                                                                                                                            |
 | **Why It Is Wrong**                 | UnitedHealth Group CEO Andrew Witty testified to Congress that the breach entry point was stolen valid credentials used against a Citrix remote-access portal that had no multi-factor authentication enabled — a configuration/access-control failure, not any software zero-day or application code vulnerability. |
+
 
 ---
 
 ### Defect 16
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Toyota Vehicle Stability Control Software Error (Recall 22V-239)                             |
-| **Source Link**     | [NHTSA recall 22V-239](https://static.nhtsa.gov/odi/rcl/2022/RCAK-22V239-5091.pdf)           |
-| **Year**            | 2022                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | High                                                                                         |
+
+| Field               | Content                                                                            |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| **Title**           | Toyota Vehicle Stability Control Software Error (Recall 22V-239)                   |
+| **Source Link**     | [NHTSA recall 22V-239](https://static.nhtsa.gov/odi/rcl/2022/RCAK-22V239-5091.pdf) |
+| **Year**            | 2022                                                                               |
+| **AI/LLM-related?** | No                                                                                 |
+| **Severity**        | High                                                                               |
+
 
 **Description:**
 
@@ -905,24 +969,28 @@ Authorized dealers updated Skid Control ECU software free of charge. Workaround:
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "What safety system failed in Toyota recall 22V-239?"                                                   |
-| **AI's Incorrect/Biased Statement** | "The recall was for unintended acceleration caused by engine control software randomly applying throttle."                              |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                                   |
+| **Prompt Used**                     | "What safety system failed in Toyota recall 22V-239?"                                                                                                                                                                                                                                                                                                     |
+| **AI's Incorrect/Biased Statement** | "The recall was for unintended acceleration caused by engine control software randomly applying throttle."                                                                                                                                                                                                                                                |
 | **Why It Is Wrong**                 | NHTSA recall 22V-239 concerns the Skid Control ECU failing to restore Vehicle Stability Control (VSC) to its default ON state after specific ignition-cycle conditions — an electronic stability system software issue. It has nothing to do with unintended acceleration or throttle control. The AI confused it with a well-known separate recall type. |
+
 
 ---
 
 ### Defect 17
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Toyota RAV4 Prime Hybrid System Shutdown (Recall 23V-041)                                    |
-| **Source Link**     | [NHTSA recall 23V-041](https://static.nhtsa.gov/odi/rcl/2023/RCMN-23V041-8071.pdf)         |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | High                                                                                         |
+
+| Field               | Content                                                                            |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| **Title**           | Toyota RAV4 Prime Hybrid System Shutdown (Recall 23V-041)                          |
+| **Source Link**     | [NHTSA recall 23V-041](https://static.nhtsa.gov/odi/rcl/2023/RCMN-23V041-8071.pdf) |
+| **Year**            | 2023                                                                               |
+| **AI/LLM-related?** | No                                                                                 |
+| **Severity**        | High                                                                               |
+
 
 **Description:**
 
@@ -938,24 +1006,28 @@ Authorized Toyota dealers updated HEV-ECU software free of charge. If power loss
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Which Toyota vehicles are affected by recall 23V-041?"                                                 |
-| **AI's Incorrect/Biased Statement** | "All 2020–2023 Toyota RAV4 Hybrid and Prime models worldwide are included in recall 23V-041."                                         |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                              |
+| **Prompt Used**                     | "Which Toyota vehicles are affected by recall 23V-041?"                                                                                                                                                                                                                                                              |
+| **AI's Incorrect/Biased Statement** | "All 2020–2023 Toyota RAV4 Hybrid and Prime models worldwide are included in recall 23V-041."                                                                                                                                                                                                                        |
 | **Why It Is Wrong**                 | NHTSA's recall document specifies only the 2021 model-year RAV4 Prime plug-in hybrid (approximately 16,680 vehicles). Non-plug-in RAV4 Hybrid models and other model years are not included. The AI broadened the scope to "all 2020–2023" variants, which could generate unnecessary alarm among unaffected owners. |
+
 
 ---
 
 ### Defect 18
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | Okta Support Engineer Compromise (LAPSUS$)                                                   |
+
+| Field               | Content                                                                                                                      |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Title**           | Okta Support Engineer Compromise (LAPSUS$)                                                                                   |
 | **Source Link**     | [Okta investigation blog](https://www.okta.com/blog/company-and-culture/oktas-investigation-of-the-january-2022-compromise/) |
-| **Year**            | 2022                                                                                         |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | High                                                                                         |
+| **Year**            | 2022                                                                                                                         |
+| **AI/LLM-related?** | No                                                                                                                           |
+| **Severity**        | High                                                                                                                         |
+
 
 **Description:**
 
@@ -971,24 +1043,28 @@ End compromised vendor access; tighten third-party security requirements; faster
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Did LAPSUS$ steal Okta's full customer password database in March 2022?"                                                               |
-| **AI's Incorrect/Biased Statement** | "Yes — LAPSUS$ downloaded Okta's entire customer credential database and published millions of passwords."                              |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                            |
+| **Prompt Used**                     | "Did LAPSUS$ steal Okta's full customer password database in March 2022?"                                                                                                                                                                                                                                          |
+| **AI's Incorrect/Biased Statement** | "Yes — LAPSUS$ downloaded Okta's entire customer credential database and published millions of passwords."                                                                                                                                                                                                         |
 | **Why It Is Wrong**                 | Okta's investigation found that support engineers using the Sitel workstation could not download customer credential databases. Maximum assessed impact was access to support tooling for up to 366 customer tenants over a five-day window (Jan 16–21, 2022). No credential database was downloaded or published. |
+
 
 ---
 
 ### Defect 19
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | LastPass Vault Breach via Unpatched Plex (CVE-2020-5741)                                     |
+
+| Field               | Content                                                                                                  |
+| ------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Title**           | LastPass Vault Breach via Unpatched Plex (CVE-2020-5741)                                                 |
 | **Source Link**     | [LastPass incident update](https://blog.lastpass.com/posts/security-incident-update-recommended-actions) |
-| **Year**            | 2022–2023                                                                                    |
-| **AI/LLM-related?** | No                                                                                           |
-| **Severity**        | Critical                                                                                     |
+| **Year**            | 2022–2023                                                                                                |
+| **AI/LLM-related?** | No                                                                                                       |
+| **Severity**        | Critical                                                                                                 |
+
 
 **Description:**
 
@@ -1004,24 +1080,28 @@ Mandatory patching on privileged workstations; ban unsanctioned personal apps on
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Were LastPass customer vaults decrypted and published because LastPass stored passwords in plaintext?"                                 |
-| **AI's Incorrect/Biased Statement** | "LastPass stored all customer master passwords in plaintext on their servers, which is why the breach exposed every password immediately." |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Prompt Used**                     | "Were LastPass customer vaults decrypted and published because LastPass stored passwords in plaintext?"                                                                                                                                                                                                                                                                                                           |
+| **AI's Incorrect/Biased Statement** | "LastPass stored all customer master passwords in plaintext on their servers, which is why the breach exposed every password immediately."                                                                                                                                                                                                                                                                        |
 | **Why It Is Wrong**                 | LastPass stated that vault data was stored encrypted. Attackers obtained encrypted vault backups and unencrypted metadata (URLs, emails, billing info). Decryption of any vault would require the individual user's master password — which was not stored by LastPass. The AI invented the plaintext-storage claim, which is both technically wrong and significantly more damaging than what actually occurred. |
+
 
 ---
 
 ### Defect 20
 
-| Field               | Content                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Title**           | CNET AI-Generated Finance Articles — Factual Errors & Plagiarism                             |
+
+| Field               | Content                                                                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**           | CNET AI-Generated Finance Articles — Factual Errors & Plagiarism                                                               |
 | **Source Link**     | [Engadget – CNET AI article review](https://www.engadget.com/cnet-reviewing-ai-written-articles-serious-errors-113041405.html) |
-| **Year**            | 2023                                                                                         |
-| **AI/LLM-related?** | Yes (hallucination / publishing pipeline)                                                    |
-| **Severity**        | Medium                                                                                       |
+| **Year**            | 2023                                                                                                                           |
+| **AI/LLM-related?** | Yes (hallucination / publishing pipeline)                                                                                      |
+| **Severity**        | Medium                                                                                                                         |
+
 
 **Description:**
 
@@ -1037,12 +1117,14 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 
 **AI Bias or Hallucination (when AI explains this defect):**
 
-| Field                               | Content                                                                                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Tool Used**                    | ChatGPT                                                                                                                                 |
-| **Prompt Used**                     | "Did CNET publicly announce it was using AI before publishing the Money Staff articles?"                                                |
-| **AI's Incorrect/Biased Statement** | "CNET clearly labeled every AI-generated article with a 'Written by AI' byline from the first publication in November 2022."           |
+
+| Field                               | Content                                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Tool Used**                    | ChatGPT                                                                                                                                                                                                                                                                                                                                                  |
+| **Prompt Used**                     | "Did CNET publicly announce it was using AI before publishing the Money Staff articles?"                                                                                                                                                                                                                                                                 |
+| **AI's Incorrect/Biased Statement** | "CNET clearly labeled every AI-generated article with a 'Written by AI' byline from the first publication in November 2022."                                                                                                                                                                                                                             |
 | **Why It Is Wrong**                 | Futurism's investigation revealed that ~75 articles were published under the opaque byline "CNET Money Staff" with no upfront AI disclosure. The lack of transparency was the core editorial ethics issue. CNET only added disclosures and issued corrections *after* the investigation exposed the program — the exact opposite of what the AI claimed. |
+
 
 ---
 
@@ -1055,15 +1137,16 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 ### Device Information
 
 
-| Field                         | Content                                                 |
-| ----------------------------- | ------------------------------------------------------- |
-| **Device Type**               | `[e.g., Rice cooker / Fan / Water filter / Smart bulb]` |
-| **Brand**                     |                                                         |
-| **Model**                     |                                                         |
-| **Year**                      |                                                         |
-| **Serial Number**             | `[Mask middle 4 characters, e.g., ABC****7890]`         |
-| **Device Photo + Student ID** | `[Insert photo filename or embed image — same frame]`   |
-| **GitHub Issues Link**        | `[URL to Issues page — username visible]`               |
+| Field                         | Content                                                                                                |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Device Type**               | Portable Handheld & Desk Fan (Quạt cầm tay & bàn)                                                      |
+| **Brand**                     | GOOJODOQ                                                                                               |
+| **Model**                     | GFS006                                                                                                 |
+| **Year**                      | `2025`                                                                                                 |
+| **Serial Number**             | `Can't check`                                                                                          |
+| **Device Photo + Student ID** | ProductImg                                                                                             |
+| **GitHub Issues Link**        | `[URL to Issues page — username visible]`                                                              |
+| **Control Interface**         | **Slide** power switch ON/OFF; **Press** speed +/− buttons (levels 1–100); **Toggle** cold mode ON/OFF |
 
 
 ---
@@ -1071,12 +1154,12 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 ### Test Case Summary
 
 
-| Metric                           | Target | Actual |
-| -------------------------------- | ------ | ------ |
-| Total test cases designed        | 15     | `[ ]`  |
-| Test cases executed (with video) | ≥ 5    | `[ ]`  |
-| Defects found during execution   | ≥ 5    | `[ ]`  |
-| Edge cases AI could not find     | ≥ 3    | `[ ]`  |
+| Metric                           | Target | Actual                  |
+| -------------------------------- | ------ | ----------------------- |
+| Total test cases designed        | 15     | 15                      |
+| Test cases executed (with video) | ≥ 5    | `[ ]`                   |
+| Defects found during execution   | ≥ 5    | `[ ]`                   |
+| Edge cases AI could not find     | ≥ 3    | 3 (TC-11, TC-12, TC-13) |
 
 
 ---
@@ -1084,23 +1167,23 @@ Paused full AI article generation; mandatory human fact-checking and plagiarism 
 ### Test Cases
 
 
-| TC ID | Objective | Input / Precondition | Steps          | Expected Result | Actual Result | Verdict (Pass/Fail) | Executed?  | Video Link                      |
-| ----- | --------- | -------------------- | -------------- | --------------- | ------------- | ------------------- | ---------- | ------------------------------- |
-| TC-01 |           |                      | 1. … 2. … 3. … |                 |               |                     | `[Yes/No]` | `[YouTube Unlisted URL if Yes]` |
-| TC-02 |           |                      |                |                 |               |                     |            |                                 |
-| TC-03 |           |                      |                |                 |               |                     |            |                                 |
-| TC-04 |           |                      |                |                 |               |                     |            |                                 |
-| TC-05 |           |                      |                |                 |               |                     |            |                                 |
-| TC-06 |           |                      |                |                 |               |                     |            |                                 |
-| TC-07 |           |                      |                |                 |               |                     |            |                                 |
-| TC-08 |           |                      |                |                 |               |                     |            |                                 |
-| TC-09 |           |                      |                |                 |               |                     |            |                                 |
-| TC-10 |           |                      |                |                 |               |                     |            |                                 |
-| TC-11 |           |                      |                |                 |               |                     |            |                                 |
-| TC-12 |           |                      |                |                 |               |                     |            |                                 |
-| TC-13 |           |                      |                |                 |               |                     |            |                                 |
-| TC-14 |           |                      |                |                 |               |                     |            |                                 |
-| TC-15 |           |                      |                |                 |               |                     |            |                                 |
+| TC ID | Objective                                                                                | Input / Precondition                                                                                                              | Steps                                                                                                                                                                                                                                                                                                                                                                           | Expected Result                                                                                                                                                                                                                                                           | Actual Result                     | Status(Pass/Fail) | Executed? | Video Link               |
+| ----- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ----------------- | --------- | ------------------------ |
+| TC-01 | Verify device powers on and produces airflow at default speed                            | Fan fully charged; power slide switch at OFF; Type-C cable disconnected; cold mode Toggle OFF                                     | 1. **Slide** the power switch from OFF to ON. 2. Observe the LED display. 3. Hold hand 10 cm from the air outlet for 5 s.                                                                                                                                                                                                                                                       | Device powers on within 3 s; LED shows a speed level (default or last-used); steady airflow is felt at the outlet; no abnormal noise or vibration.                                                                                                                        | `As expected`                     | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
+| TC-02 | Verify Type-C charging from empty/low battery                                            | Battery at ≤10% or depleted; standard 5 V/2 A Type-C adapter and cable; power slide switch at OFF                                 | 1. Connect the Type-C cable to the fan and adapter. 2. Note the start time and any charging indicator. 3. Leave charging until the indicator shows full (or ~2.5 h). 4. Disconnect cable and **Slide** power switch to ON.                                                                                                                                                      | Charging indicator activates within 10 s; full charge completes in approximately 2.5 h (±15 min); after disconnecting, device powers on and runs normally.                                                                                                                | `As expected`                     | `Pass`            | No        | —                        |
+| TC-03 | Verify maximum wind speed (level 100) delivers strong airflow                            | Fully charged; handheld or desk mode on a stable surface; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON. 2. **Press** speed + button repeatedly until LED shows 100. 3. Confirm LED shows 100. 4. Hold tissue paper or hand 20 cm from outlet for 10 s.                                                                                                                                                                                                 | LED displays 100; airflow is clearly stronger than at level 50; motor runs smoothly without stall, burning smell, or excessive vibration; perceived airflow consistent with 10 m/s / 13,000 RPM spec.                                                                     | `As expected`                     | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
+| TC-04 | Verify 100 speed levels adjust smoothly                                                  | Fully charged; power slide switch at ON; speed at level 1                                                                         | 1. **Press** speed + button from level 1 to 100, pausing 1 s every 1 levels. 2. Record LED value at each pause. 3. **Press** speed − button from 100 back to 1 using the same method.                                                                                                                                                                                           | Each press changes speed monotonically; LED increments/decrements; motor transitions without stutter, clicking, or sudden stops.                                                                                                                                          | `As expected`                     | `Passed`          | No        | —                        |
+| TC-05 | Verify LED display accuracy at representative speed levels                               | Fully charged; power slide switch at ON                                                                                           | 1. **Press** speed − button until LED shows 1; photograph or note LED reading. 2. **Press** speed + button until LED shows 50; note LED. 3. **Press** speed + button until LED shows 100; note LED. 4. **Slide** power switch to OFF, then **Slide** back to ON; check whether last speed level is retained.                                                                    | LED shows 1, 50, and 100 respectively with no digit flicker; display remains readable for 30 s at each level; after power cycle, behavior matches user-manual spec (retain or reset to default).                                                                          | Last speed level is not retained. | `Failed`          | Yes       | `[YouTube Unlisted URL]` |
+| TC-06 | Verify semiconductor cooling plate lowers surface temperature                            | Fully charged; room temp 25–30 °C; power slide switch at ON; cold mode Toggle OFF                                                 | 1. **Slide** power switch to ON. 2. **Toggle** cold mode ON. 3. **Press** speed + button until LED shows 40–50; run for 3 min. 4. Lightly touch the cooling plate for 2 s. 5. Compare plate temp to the plastic housing.                                                                                                                                                        | Cooling plate feels noticeably cooler than the surrounding body within 3 min; no sharp heat on the housing; fan continues running; no condensation on the plate indoors.                                                                                                  | `As expected`                     | `Passed`          | Yes       | `[YouTube Unlisted URL]` |
+| TC-07 | Verify continuous runtime at medium speed meets 2.5–8 h spec                             | Fully charged (100%); speed at level 50; stopwatch ready; cold mode Toggle OFF                                                    | 1. **Slide** power switch to ON; **Press** speed +/− buttons until LED shows 50; start stopwatch. 2. Run continuously without pressing speed buttons or toggling cold mode. 3. Record time until auto shut-off or noticeable speed drop. 4. Note final battery state.                                                                                                           | Device runs for at least 2.5 h before shutdown or low-battery slowdown; runtime at level 50 falls within the advertised 2.5–8 h range; shut-off is graceful (no abrupt motor jam).                                                                                        | `As expected`                     | `Pass`            | No        | —                        |
+| TC-08 | Verify noise level at low speed is within quiet-use expectation (<25 dB)                 | Fully charged; quiet room (background <30 dB); power slide switch at ON; cold mode Toggle OFF                                     | 1. Place fan on desk; **Slide** power switch to ON. 2. **Press** speed − button until LED shows 5. 3. Measure sound at 1 m using a decibel-meter app (or compare to a known-quiet fan). 4. Run for 2 min and listen for rattling.                                                                                                                                               | Measured or perceived noise at level 5 is ≤25 dB (or clearly suitable for office use); no rattling, grinding, or high-pitched whine; airflow still perceptible.                                                                                                           | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-09 | Verify handheld ergonomics and thermal comfort during extended use                       | Fully charged; speed at level 60; 15-min test session; cold mode Toggle OFF                                                       | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 60. 2. Hold fan in one hand in handheld mode for 15 min. 3. Note grip comfort, weight fatigue, and housing temperature.                                                                                                                                                                               | Weight (~320 g) remains comfortable for 15 min; housing does not become uncomfortably hot; grip surface is not slippery; airflow direction is easy to aim.                                                                                                                | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-10 | Verify desk/tabletop mode stability at maximum speed on flat surface                     | Fully charged; fan in desk-stand configuration; flat, hard tabletop; cold mode Toggle OFF                                         | 1. Place fan in desk mode on a level table. 2. **Slide** power switch to ON. 3. **Press** speed + button until LED shows 100. 4. Observe for 5 min for movement or tip-over. 5. Lightly tap the table edge.                                                                                                                                                                     | Fan remains upright for 5 min with no walking/sliding; does not tip when table is lightly tapped; vibration is within acceptable limits.                                                                                                                                  | `[TBD]`                           | `[TBD]`           | Yes       | `[YouTube Unlisted URL]` |
+| TC-11 | **Edge case:** Verify charge-while-use behavior (simultaneous charging and operation)    | Battery at ~30–50%; standard 5 V/2 A Type-C adapter and cable; cold mode Toggle OFF; indoor room temp 25–30 °C                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 50. 2. Connect Type-C charger while fan is running. 3. Run for 15 min; every 5 min record housing temperature (touch test), LED reading, and motor sound. 4. Note whether battery level appears to increase, stay the same, or decrease during use-while-charging.                                    | Housing temperature rises only within a safe, comfortable range (no burning smell or shutdown); motor speed and sound remain stable at level 50; device does not auto shut off; actual charging behavior is documented (product spec does not define use-while-charging). | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-12 | **Edge case:** Verify battery status indicator during charging and at 100% full charge   | Battery at ≤20% or depleted; power slide switch at OFF; Type-C adapter connected; product spec does not define indicator behavior | 1. Connect Type-C cable with device OFF; note LED/battery indicator immediately. 2. Observe indicator every 30 min during charging (~2.5 h total). 3. Record indicator behavior at mid-charge and when charge completes. 4. After reaching full charge, disconnect cable and **Slide** power switch to ON; confirm normal operation.                                            | Charging state is visible via LED pattern, icon, or percentage (if present); indicator changes or stabilizes to signal full charge at 100%; if no battery % exists, LED behavior during/after full charge is recorded; device operates normally after full charge.        | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-13 | **Edge case:** Verify physical shock resistance after light drop (handheld use scenario) | Fully charged; power slide switch at OFF; hard floor surface (tile/concrete); open drop area; cold mode Toggle OFF                | 1. Inspect housing, LED, grille, and slide/toggle controls before test. 2. Hold fan at 0.5 m above hard floor (handheld carry height). 3. Release fan once so it falls freely onto the hard surface. 4. Inspect for cracks, loose parts, or internal rattling. 5. **Slide** power switch to ON; **Press** speed +/− buttons; **Toggle** cold mode ON/OFF; verify motor and LED. | No structural crack or sharp exposed parts; no loose internal components; after drop, device **Slides** ON and runs normally at multiple speed levels; LED and cold mode **Toggle** work; cosmetic scuffs are acceptable but functional damage is a defect.               | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-14 | Verify low-battery warning or graceful shutdown before sudden stop                       | Battery at ~15% (partial charge cycle or prior drain); speed at level 70; cold mode Toggle OFF                                    | 1. **Slide** power switch to ON; **Press** speed + button until LED shows 70. 2. Run until device slows, warns, or shuts off. 3. Record behavior in the final 5 min.                                                                                                                                                                                                            | User receives visible low-battery indication (LED blink, speed drop, or icon) before total shutdown; device does not stop abruptly without warning; after shutdown, **Slide** power switch to ON cannot restart device until charged.                                     | `[TBD]`                           | `[TBD]`           | No        | —                        |
+| TC-15 | Verify safe behavior when charging is interrupted mid-cycle                              | Battery at ~40%; power slide switch at OFF; Type-C charger connected                                                              | 1. Begin charging and wait until ~60% (or 30 min). 2. Unplug cable abruptly. 3. **Slide** power switch to ON; **Press** speed + button until LED shows 50; run for 5 min. 4. **Slide** power switch to OFF; reconnect charger.                                                                                                                                                  | No damage, swelling, or excessive heat after unplug; device powers on and runs normally; battery level display is plausible (not stuck at 0% or 100%); charging resumes normally when cable is reconnected.                                                               | `[TBD]`                           | `[TBD]`           | No        | —                        |
 
 
 > **Note:** Detailed test cases are also submitted in Excel (Test Cases / Checklist / Test Summary Report).
@@ -1129,13 +1212,13 @@ Log all defects as **Issues** in your GitHub repository.
 ### Execution Videos (≥ 5)
 
 
-| #   | TC ID | Title | YouTube Unlisted Link | Duration (≤ 60s) | Voice Narration |
-| --- | ----- | ----- | --------------------- | ---------------- | --------------- |
-| 1   |       |       |                       |                  | Yes (required)  |
-| 2   |       |       |                       |                  |                 |
-| 3   |       |       |                       |                  |                 |
-| 4   |       |       |                       |                  |                 |
-| 5   |       |       |                       |                  |                 |
+| #   | TC ID | Title                                   | YouTube Unlisted Link    | Duration (≤ 60s) | Voice Narration |
+| --- | ----- | --------------------------------------- | ------------------------ | ---------------- | --------------- |
+| 1   | TC-01 | Slide power switch ON — default airflow | `[YouTube Unlisted URL]` | `[ ]`            | Yes (required)  |
+| 2   | TC-03 | Press speed + to level 100 — airflow    | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
+| 3   | TC-05 | LED display accuracy                    | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
+| 4   | TC-06 | Toggle cold mode ON — cooling plate     | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
+| 5   | TC-10 | Desk-mode stability at max speed        | `[YouTube Unlisted URL]` | `[ ]`            | Yes             |
 
 
 ---
@@ -1167,34 +1250,34 @@ Log all defects as **Issues** in your GitHub repository.
 > Provide **≥ 3** edge-case test cases the AI did **NOT** generate.  
 > Required: **(a)** screenshot of AI conversation showing AI did not generate these cases, **(b)** written explanation of why AI missed them.
 
-### Edge Case 1 – `[TC ID]`
+### Edge Case 1 – TC-11
 
 
-| Field                          | Content                                                                               |
-| ------------------------------ | ------------------------------------------------------------------------------------- |
-| **Test Case**                  | `[Objective / Steps / Expected — your edge case]`                                     |
-| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                   |
-| **Why AI Missed It**           | `[2–5 sentences: context, assumptions, domain knowledge, physical constraints, etc.]` |
+| Field                          | Content                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Test Case**                  | **Charge-while-use:** Run fan at speed 50 while Type-C charger connected for 15 min; monitor housing heat, motor stability, and whether battery level changes. Expected: safe operation with documented actual charging behavior (spec silent on this use case).                                                                              |
+| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                                                           |
+| **Why AI Missed It**           | AI test drafts typically follow published specs (charging time, runtime) and treat charging and operation as separate states. Real users commonly plug in and continue using a portable fan; thermal interaction between charging circuit and motor at speed 50 is a physical edge case requiring hands-on observation, not spec-sheet logic. |
 
 
-### Edge Case 2 – `[TC ID]`
+### Edge Case 2 – TC-12
 
 
-| Field                          | Content |
-| ------------------------------ | ------- |
-| **Test Case**                  |         |
-| **AI Conversation Screenshot** |         |
-| **Why AI Missed It**           |         |
+| Field                          | Content                                                                                                                                                                                                                                                                                                        |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Test Case**                  | **Battery/charging indicator:** Observe LED or battery % display throughout charging until 100% full; record whether indicator changes at full charge. Expected: visible charging feedback if present; document actual behavior because GFS006 spec does not define indicator rules.                           |
+| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                            |
+| **Why AI Missed It**           | AI assumes LED display only shows fan speed (100 levels) because that is the marketed feature. Charging/battery indicator behavior is undocumented in the product page — AI cannot infer undocumented UI states and therefore skips exploratory tests for "does the LED show charging or full-battery status?" |
 
 
-### Edge Case 3 – `[TC ID]`
+### Edge Case 3 – TC-1
 
 
-| Field                          | Content |
-| ------------------------------ | ------- |
-| **Test Case**                  |         |
-| **AI Conversation Screenshot** |         |
-| **Why AI Missed It**           |         |
+| Field                          | Content                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Test Case**                  | **Light drop test:** Drop fan from 0.5 m onto hard floor (power OFF), then verify housing integrity and full function (power, speed buttons, cold mode). Expected: no functional damage; normal operation after drop.                                                                                                                       |
+| **AI Conversation Screenshot** | `[Screenshot showing AI did NOT suggest this case]`                                                                                                                                                                                                                                                                                         |
+| **Why AI Missed It**           | AI-generated functional test cases focus on electrical features and avoid destructive or quasi-destructive physical tests due to safety/liability assumptions. A 320 g handheld fan is routinely carried and dropped in real use — drop survivability is domain knowledge from portable-device QA, not from the online product description. |
 
 
 ---
